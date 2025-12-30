@@ -72,7 +72,7 @@ with col1:
     st.warning("Deep Learning: Optimization Functions App -> Stochastic Gradient Descent")
     st.info("Deep Learning: Optimization Functions App -> Exponentially Weighted Moving Average")
     st.error("Deep Learning: Optimization Functions App -> Momentum Gradient Descent")
-    st.success(Deep Learning: Optimization Functions App -> RMSprop")
+    st.success("Deep Learning: Optimization Functions App -> RMSprop")
     st.warning("Deep Learning: Optimization Functions App -> Adam Optimization")
     st.info("Deep Learning: Hyperparams App -> Selection of Hyperparams and text classification")
     st.error("Deep Learning:Optimization Functions App -> Mini-Batch Gradient Descent")
