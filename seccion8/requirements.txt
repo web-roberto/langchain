@@ -1,0 +1,4 @@
+langchain_core
+dotenv
+langchain_experimental
+streamlit
