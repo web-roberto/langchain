@@ -70,31 +70,31 @@ with col1:
     # https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/9_Creaci%C3%B3n%20de%20Transformadores%20y%20Pipelines%20personalizados.ipynb
     st.error("Machine Learning  -> Creation of custom transformers and pipelines" )
     # https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/10_Evaluaci%C3%B3n%20de%20resultados.ipynb
-    st.error("Practice of Machine Learning  -> Evaluation of results")
+    st.warning("Practice of Machine Learning  -> Evaluation of results")
     # https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/11_Support%20Vector%20Machine%20-%20Detecci%C3%B3n%20de%20URLs%20maliciosas.ipynb
     st.error("Practice of Machine Learning  -> Support Vector Machine (SVM)")
     # https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/12_%C3%81rboles%20de%20decisi%C3%B3n%20-%20Detecci%C3%B3n%20de%20malware%20en%20Android.ipynb
-    st.error("Practice of Machine Learning  -> Decision trees")
+    st.info("Practice of Machine Learning  -> Decision trees")
     # https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/13_Random%20Forests%20-%20Detecci%C3%B3n%20de%20Malware%20en%20Android.ipynb
-    st.error("Practice of Machine Learning  -> Random Forest")
+    st.success("Practice of Machine Learning  -> Random Forest")
     # https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/14_T%C3%A9cnicas%20de%20selecci%C3%B3n%20de%20caracter%C3%ADsticas.ipynb
-    st.error("Practice of Machine Learning  -> Features selection")
+    st.warning("Practice of Machine Learning  -> Features selection")
     # https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/15_PCA%20-%20Extracci%C3%B3n%20de%20caracter%C3%ADsticas.ipynb
     st.error("Practice of Machine Learning  -> Principal Component Analysis (PCA)")
     # https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/16_T%C3%A9cnicas%20de%20selecci%C3%B3n%20del%20modelo.ipynb
-    st.error("Practice of Machine Learning  -> Model selection")
+    st.success("Practice of Machine Learning  -> Model selection")
     # https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/17_KMEANS%20-%20Detecci%C3%B3n%20de%20transacciones%20bancarias%20fraudulentas.ipynb
-    st.error("Machine Learning  -> KMEANS - Detection of fraudulent bank transactions")
+    st.info("Machine Learning  -> KMEANS - Detection of fraudulent bank transactions")
     # https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/18_DBSCAN%20-%20Detecci%C3%B3n%20de%20transacciones%20bancarias%20fraudulentas.ipynb
     st.error("Machine Learning  -> DBSCAN - Detection of fraudulent bank transactions")
     # https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/19_Naive%20Bayes%20-%20Detecci%C3%B3n%20de%20SPAM.ipynb
-    st.error("Practice of Machine Learning  -> Naive Bayes - SPAM Detection")
+    st.success("Practice of Machine Learning  -> Naive Bayes - SPAM Detection")
     # https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/20_Distribuci%C3%B3n%20Gaussiana%20-%20Detecci%C3%B3n%20de%20transacciones%20bancarias%20fraudulentas.ipynb    st.error("Practice of Machine Learning  -> Gaussian Distribution - Detection of fraudulent bank transactions")
-    st.error("Practice of Machine Learning  -> Gaussian Distribution")
+    st.warning("Practice of Machine Learning  -> Gaussian Distribution")
     # https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/21_Isolation%20Forest%20-%20Detecci%C3%B3n%20de%20transacciones%20bancarias%20fraudulentas.ipynb
     st.error("Practice of Machine Learning  -> Isolation Forest")
     # https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/22_Redes%20Neuronales%20Artificiales%20-%20Detecci%C3%B3n%20de%20transacciones%20bancarias%20fraudulentas.ipynb
-    st.error("Practice of Machine Learning  -> Artificial Neural Networks - Detection of fraudulent bank transactions")
+    st.info("Practice of Machine Learning  -> Artificial Neural Networks - Detection of fraudulent bank transactions")
     
     # DEEP LEARNING
     st.success("Deep Learning: M-P NEURON App -> Implementation")
@@ -146,6 +146,7 @@ with col2:
     st.link_button("Code", "https://github.com/web-roberto/langchain/tree/main/seccion4")
     st.write('')
     st.link_button("Code", "https://github.com/web-roberto/langchain/tree/main/seccion5")
+    st.write('')
     st.write('')
     st.link_button("Code", "https://github.com/web-roberto/langchain/tree/main/seccion6")
     st.write('')
