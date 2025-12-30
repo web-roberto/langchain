@@ -69,7 +69,7 @@ with col1:
     # https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/11_Support%20Vector%20Machine%20-%20Detecci%C3%B3n%20de%20URLs%20maliciosas.ipynb
     st.error("Practice of Machine Learning  -> Support Vector Machine (SVM)")
     # https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/12_%C3%81rboles%20de%20decisi%C3%B3n%20-%20Detecci%C3%B3n%20de%20malware%20en%20Android.ipynb
-    st.error(Practice of Machine Learning  -> Decision trees")
+    st.error("Practice of Machine Learning  -> Decision trees")
     # https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/13_Random%20Forests%20-%20Detecci%C3%B3n%20de%20Malware%20en%20Android.ipynb
     st.error("Practice of Machine Learning  -> Random Forest")
     # https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/14_T%C3%A9cnicas%20de%20selecci%C3%B3n%20de%20caracter%C3%ADsticas.ipynb
