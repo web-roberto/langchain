@@ -155,69 +155,47 @@ with col2:
     st.link_button("Code", "https://github.com/web-roberto/langchain/tree/main/seccion8")
     st.write('')
     
-    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/1_Introducci%C3%B3n%20a%20NumPy.ipynb
-")
+    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/1_Introducci%C3%B3n%20a%20NumPy.ipynb")
     st.write('')
-    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/2_Introducci%C3%B3n%20a%20Pandas.ipynb
-")
+    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/2_Introducci%C3%B3n%20a%20Pandas.ipynb")
     st.write('')
-    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/3_Introducci%C3%B3n%20a%20Matplotlib.ipynb
-")
+    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/3_Introducci%C3%B3n%20a%20Matplotlib.ipynb")
     st.write('')
-    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/4_Regresi%C3%B3n%20Lineal%20-%20Predicci%C3%B3n%20del%20coste%20de%20un%20incidente%20de%20seguridad.ipynb
-")
+    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/4_Regresi%C3%B3n%20Lineal%20-%20Predicci%C3%B3n%20del%20coste%20de%20un%20incidente%20de%20seguridad.ipynb")
     st.write('')
-    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/5_Regresi%C3%B3n%20Log%C3%ADstica%20-%20Detecci%C3%B3n%20de%20SPAM.ipynb
-")
+    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/5_Regresi%C3%B3n%20Log%C3%ADstica%20-%20Detecci%C3%B3n%20de%20SPAM.ipynb")
     st.write('')
-    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/6_Visualizaci%C3%B3n%20del%20conjunto%20de%20datos.ipynb
-")
+    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/6_Visualizaci%C3%B3n%20del%20conjunto%20de%20datos.ipynb")
     st.write('')
-    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/7_Divisi%C3%B3n%20del%20conjunto%20de%20datos.ipynb
-")
+    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/7_Divisi%C3%B3n%20del%20conjunto%20de%20datos.ipynb")
     st.write('')
-    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/8_Preparaci%C3%B3n%20del%20conjunto%20de%20datos.ipynb
-")
+    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/8_Preparaci%C3%B3n%20del%20conjunto%20de%20datos.ipynb")
     st.write('')
-    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/9_Creaci%C3%B3n%20de%20Transformadores%20y%20Pipelines%20personalizados.ipynb
-")
+    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/9_Creaci%C3%B3n%20de%20Transformadores%20y%20Pipelines%20personalizados.ipynb")
     st.write('')
-    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/10_Evaluaci%C3%B3n%20de%20resultados.ipynb
-")
+    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/10_Evaluaci%C3%B3n%20de%20resultados.ipynb")
     st.write('')
-    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/11_Support%20Vector%20Machine%20-%20Detecci%C3%B3n%20de%20URLs%20maliciosas.ipynb
-")
+    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/11_Support%20Vector%20Machine%20-%20Detecci%C3%B3n%20de%20URLs%20maliciosas.ipynb")
     st.write('')
-    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/12_%C3%81rboles%20de%20decisi%C3%B3n%20-%20Detecci%C3%B3n%20de%20malware%20en%20Android.ipynb
-")
+    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/12_%C3%81rboles%20de%20decisi%C3%B3n%20-%20Detecci%C3%B3n%20de%20malware%20en%20Android.ipynb")
     st.write('')
-    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/13_Random%20Forests%20-%20Detecci%C3%B3n%20de%20Malware%20en%20Android.ipynb
-")
+    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/13_Random%20Forests%20-%20Detecci%C3%B3n%20de%20Malware%20en%20Android.ipynb")
     st.write('')
-    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/14_T%C3%A9cnicas%20de%20selecci%C3%B3n%20de%20caracter%C3%ADsticas.ipynb
-")
+    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/14_T%C3%A9cnicas%20de%20selecci%C3%B3n%20de%20caracter%C3%ADsticas.ipynb")
     st.write('')
-    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/15_PCA%20-%20Extracci%C3%B3n%20de%20caracter%C3%ADsticas.ipynb
-")
+    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/15_PCA%20-%20Extracci%C3%B3n%20de%20caracter%C3%ADsticas.ipynb")
     st.write('')
-    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/16_T%C3%A9cnicas%20de%20selecci%C3%B3n%20del%20modelo.ipynb
-")
+    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/16_T%C3%A9cnicas%20de%20selecci%C3%B3n%20del%20modelo.ipynb")
     st.write('')
-    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/17_KMEANS%20-%20Detecci%C3%B3n%20de%20transacciones%20bancarias%20fraudulentas.ipynb
-")
+    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/17_KMEANS%20-%20Detecci%C3%B3n%20de%20transacciones%20bancarias%20fraudulentas.ipynb")
     st.write('')
-    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/18_DBSCAN%20-%20Detecci%C3%B3n%20de%20transacciones%20bancarias%20fraudulentas.ipynb
-")
-    st.write('https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/19_Naive%20Bayes%20-%20Detecci%C3%B3n%20de%20SPAM.ipynb
-')
-    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/19_Naive%20Bayes%20-%20Detecci%C3%B3n%20de%20SPAM.ipynb
-")
+    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/18_DBSCAN%20-%20Detecci%C3%B3n%20de%20transacciones%20bancarias%20fraudulentas.ipynb")
+    st.write('https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/19_Naive%20Bayes%20-%20Detecci%C3%B3n%20de%20SPAM.ipynb')
+    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/19_Naive%20Bayes%20-%20Detecci%C3%B3n%20de%20SPAM.ipynb")
     st.write('')
-    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/21_Isolation%20Forest%20-%20Detecci%C3%B3n%20de%20transacciones%20bancarias%20fraudulentas.ipynb
-")
+    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/21_Isolation%20Forest%20-%20Detecci%C3%B3n%20de%20transacciones%20bancarias%20fraudulentas.ipynb")
     st.write('') 
-    st.link_button("Code", "    https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/22_Redes%20Neuronales%20Artificiales%20-%20Detecci%C3%B3n%20de%20transacciones%20bancarias%20fraudulentas.ipynb
-")
+    st.link_button("Code", "    https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/22_Redes%20Neuronales%20Artificiales%20-%20Detecci%C3%B3n%20de%20transacciones%20bancarias%20fraudulentas.ipynb")
     st.write('') 
 
 with col3:
