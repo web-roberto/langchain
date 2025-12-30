@@ -13,6 +13,7 @@ st.toast("Loading...")
 col1, col2, col3= st.columns([9,2,2], gap="small", vertical_alignment="top", border=True, width="stretch")
 
 with col1:
+    # LANGCHAIN
     st.success("⭐⭐⭐ Top App ->  MULTICHAT MULTIUSER -> Tecnologies....")
     st.success("LangChain App -> Feelings Analysis") #  -28-39 seccion4
     st.warning("LangChain App -> System for Evaluating Curriculums and Candidates with Generative AI") #  46,48,49  seccion4
@@ -26,6 +27,9 @@ with col1:
     st.warning("AI Agents and external tools. Apps -> Cybersecurity Analisys with LLM and VirusTotal")  # seccion8
     st.info("AI Agents and external tools. Apps -> Tasks Implementation of Thread Intelligence")  # 143-147 seccion8
     
+    # GENERATIVE AI
+    # https://github.com/web-roberto/generative_ai/tree/main/seccion4-Prompts
+    st.error("Generative AI and LLM -> Prompt Engineering documentation") # seccion4-Prompts
     st.error("Generative AI and Large Language Model (LLM) Apps-> Practice with DeepSeek")  # ...
     st.success("Generative AI and LLM) Apps-> Practice with Claude")  # ...
     st.warning("Generative AI and LLM Apps-> Practice with Gemini")  # ...
@@ -46,6 +50,7 @@ with col1:
     st.success("Generative AI, LLM, GANs (Generative Adversarial Networks). Apps-> To change a person's face in a video")  # 163
     st.warning("Generative AI, LLM, Diffusion Models, CLIP (Contrastive Language-Image Pre-training). Apps-> Automatic Generations fo Images. DALL-E 3")  # 169
 
+    # MACHINE LEARNING
     # https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/1_Introducci%C3%B3n%20a%20NumPy.ipynb
     st.error("Practice of Machine Learning -> Introduction to NumPy")
     # https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/2_Introducci%C3%B3n%20a%20Pandas.ipynb
@@ -91,6 +96,7 @@ with col1:
     # https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/22_Redes%20Neuronales%20Artificiales%20-%20Detecci%C3%B3n%20de%20transacciones%20bancarias%20fraudulentas.ipynb
     st.error("Practice of Machine Learning  -> Artificial Neural Networks - Detection of fraudulent bank transactions")
     
+    # DEEP LEARNING
     st.success("Deep Learning: M-P NEURON App -> Implementation")
     st.warning("Deep Learning: M-P NEURON App -> Diagnosis of breast cancer with one M-P neuron")
     st.info("Deep Learning: PRECEPTRON App -> Visualization of the perceptron decision boundary ")
@@ -119,17 +125,20 @@ with col1:
     st.info("Deep Learning: TENSORFLOW App -> Create a custom component")  
     st.error("Deep Learning: TENSORFLOW App -> Create a custom layer")  
 
+    # N8N
     st.error("N8N: -> ")  
     st.error("N8N: -> ")  
     st.error("N8N: -> ")  
     st.error("N8N: -> ")  
-    
+
+    # MCP
     st.error("MCP: -> ")  
     st.error("MCP: -> ")  
     st.error("MCP: -> ")  
     st.error("MCP: -> ")  
 
 with col2:
+    # LANGCHAIN
     st.link_button("Code", "")
     st.write('')
     st.link_button("Codeb", "https://github.com/web-roberto/langchain/tree/main/seccion4")
@@ -155,6 +164,7 @@ with col2:
     st.link_button("Code", "https://github.com/web-roberto/langchain/tree/main/seccion8")
     st.write('')
     
+    # MACHINE LEARNING
     st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/1_Introducci%C3%B3n%20a%20NumPy.ipynb")
     st.write('')
     st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/2_Introducci%C3%B3n%20a%20Pandas.ipynb")
@@ -200,110 +210,43 @@ with col2:
     st.link_button("Code","https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/22_Redes%20Neuronales%20Artificiales%20-%20Detecci%C3%B3n%20de%20transacciones%20bancarias%20fraudulentas.ipynb")
     st.write('') 
 
+    # GENERATIVE AI
+    st.link_button("https://github.com/web-roberto/generative_ai/tree/main/seccion4-Prompts")
+    st.write('') 
+
+    # DEEP LEARNING
+    st.link_button("")
+    st.write('') 
+    
+    # N8N
+    st.link_button("")
+    st.write('') 
+    
+    # MPC
+    st.link_button("")
+    st.write('') 
+    
 with col3:
+    # LANGCHAIN
+    st.link_button("Run App", "")
+    st.write('')     
+    
+    # MACHINE LEARNING
+    st.link_button("Run App", "")
+    st.write('') 
+
+    # GENERATIVE AI
+    st.link_button("Run App", "")
+    st.write('') 
+
+    # DEEP LEARNING
     st.link_button("Run App", "")
     st.write('')
+    
+    # N8N
     st.link_button("Run App", "")
     st.write('')
+    
+    # MPC
     st.link_button("Run App", "")
-    st.write('')
-    st.link_button("Run App", "")
-    st.write('')
-    st.link_button("Run App", "")
-    st.write('')
-    st.link_button("Code Github", "")
-    st.write('')
-    st.link_button("Code Github", "")
-    st.write('')
-    st.link_button("Code Github", "")
-    st.write('')
-    st.link_button("Code Github", "")
-    st.write('')
-    st.link_button("Code Github", "")
-    st.write('')
-    st.link_button("Code Github", "")
-    st.write('')
-    st.link_button("Code Github", "")
-    st.write('')
-    st.link_button("Code Github", "")
-    st.write('')
-    st.link_button("Code Github", "")
-    st.write('')
-    st.link_button("Code Github", "")
-    st.write('')
-    st.link_button("Code Github", "")
-    st.write('')
-    st.link_button("Code Github", "")
-    st.write('')
-    st.link_button("Code Github", "")
-    st.write('')
-    st.link_button("Code Github", "")
-    st.write('')
-    st.link_button("Code Github", "")
-    st.write('')
-    st.link_button("Code Github", "")
-    st.write('')
-    st.link_button("Code Github", "")
-    st.write('')
-    st.link_button("Code Github", "")
-    st.write('')
-    st.link_button("Code Github", "")
-    st.write('')
-    st.link_button("Code Github", "")
-    st.write('')
-    st.link_button("Code Github", "")
-    st.write('')
-    st.link_button("Code Github", "")
-    st.write('')
-    st.link_button("Code Github", "")
-    st.write('')
-    st.link_button("Code Github", "")
-    st.write('')
-    st.link_button("Code Github", "")
-    st.write('')
-    st.link_button("Code Github", "")
-    st.write('')
-    st.link_button("Code Github", "")
-    st.write('')
-    st.link_button("Code Github", "")
-    st.write('')
-    st.link_button("Code Github", "")
-    st.write('')
-    st.link_button("Code Github", "")
-    st.write('')
-    st.link_button("Code Github", "")
-    st.write('')
-    st.link_button("Code Github", "")
-    st.write('')
-    st.link_button("Code Github", "")
-    st.write('')
-    st.link_button("Code Github", "")
-    st.write('')
-    st.link_button("Code Github", "")
-    st.write('')
-    st.link_button("Code Github", "")
-    st.write('')
-    st.link_button("Code Github", "")
-    st.write('')
-    st.link_button("Code Github", "")
-    st.write('')
-    st.link_button("Code Github", "")
-    st.write('')
-    st.link_button("Code Github", "")
-    st.write('')
-    st.link_button("Code Github", "")
-    st.write('')
-    st.link_button("Code Github", "")
-    st.write('')
-    st.link_button("Code Github", "")
-    st.write('')
-    st.link_button("Code Github", "")
-    st.write('')
-    st.link_button("Code Github", "")
-    st.write('')
-    st.link_button("Code Github", "")
-    st.write('')
-    st.link_button("Code Github", "")
-    st.write('')
-    st.link_button("Code Github", "")
     st.write('')
