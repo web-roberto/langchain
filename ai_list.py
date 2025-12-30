@@ -10,7 +10,7 @@ st.snow()
 st.toast("Loading...")
 
 
-col1, col2, col3= st.columns([6,1,1], gap="small", vertical_alignment="top", border=True, width="stretch")
+col1, col2, col3= st.columns([6,2,1], gap="small", vertical_alignment="top", border=True, width="stretch")
 
 with col1:
     st.success("⭐⭐⭐ Top App ->  MULTICHAT MULTIUSER -> Tecnologies....")
