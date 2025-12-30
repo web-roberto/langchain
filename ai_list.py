@@ -118,6 +118,17 @@ with col1:
     st.warning("Deep Learning: TENSORFLOW App -> Create a custom loss function")  
     st.info("Deep Learning: TENSORFLOW App -> Create a custom component")  
     st.error("Deep Learning: TENSORFLOW App -> Create a custom layer")  
+
+    st.error("N8N: -> ")  
+    st.error("N8N: -> ")  
+    st.error("N8N: -> ")  
+    st.error("N8N: -> ")  
+    
+    st.error("MCP: -> ")  
+    st.error("MCP: -> ")  
+    st.error("MCP: -> ")  
+    st.error("MCP: -> ")  
+
 with col2:
     st.link_button("Code", "")
     st.write('')
