@@ -14,29 +14,17 @@ col1, col2, col3= st.columns([9,2,2], gap="small", vertical_alignment="top", bor
 
 with col1:
     st.success("⭐⭐⭐ Top App ->  MULTICHAT MULTIUSER -> Tecnologies....")
-    #  https://github.com/web-roberto/langchain/tree/main/seccion4
-    st.success("LangChain App -> Feelings Analysis") #  -28-39
-    # https://github.com/web-roberto/langchain/tree/main/seccion4
-    st.warning("LangChain App -> System for Evaluating Curriculums and Candidates with Generative AI") #  46,48,49 
-    # https://github.com/web-roberto/langchain/tree/main/seccion5
-    st.info("LangChain and RAG(Retrieval Augmented Generation) App -> Legal Assistance and Contract Evaluation System") #  60s
-    # https://github.com/web-roberto/langchain/tree/main/seccion6
-    st.error("LangGraph App -> Meeting Processing System") # ...
-    # https://github.com/web-roberto/langchain/tree/main/seccion6
-    st.success("LangGraph: Human-in-the-Loop, Checkpoints App -> Helpdesk with AI, Langgraph and RAG ")  # ...
-    # https://github.com/web-roberto/langchain/tree/main/seccion7
-    st.warning("LangGraph: Memory and Context Management. APP -> Vectorial Memoroy with Langgraph")  # ...
-    # https://github.com/web-roberto/langchain/tree/main/seccion7
-    st.info("LangGraph: Memory and Context Management. APP -> Multi-user Chat with Advanced Memory")  # 103-120
-    # https://github.com/web-roberto/langchain/tree/main/seccion8
-    st.error("AI Agents and external tools. Apps -> Multi-Agent Security Operations Center")  # 135
-    #https://github.com/web-roberto/langchain/tree/main/seccion8
-    st.success("AI Agents and external tools. Apps ->Internet Search with LLM and Tavily ")  # 138
-    # https://github.com/web-roberto/langchain/tree/main/seccion8
-    st.warning("AI Agents and external tools. Apps -> Cybersecurity Analisys with LLM and VirusTotal")  # ...
-    # https://github.com/web-roberto/langchain/tree/main/seccion8
-    st.info("AI Agents and external tools. Apps -> Tasks Implementation of Thread Intelligence")  # 143-147
-
+    st.success("LangChain App -> Feelings Analysis") #  -28-39 seccion4
+    st.warning("LangChain App -> System for Evaluating Curriculums and Candidates with Generative AI") #  46,48,49  seccion4
+    st.info("LangChain and RAG(Retrieval Augmented Generation) App -> Legal Assistance and Contract Evaluation System") #  60s seccion5
+    st.error("LangGraph App -> Meeting Processing System") # seccion6
+    st.success("LangGraph: Human-in-the-Loop, Checkpoints App -> Helpdesk with AI, Langgraph and RAG ")  # seccion6
+    st.warning("LangGraph: Memory and Context Management. APP -> Vectorial Memoroy with Langgraph")  # seccion7
+    st.info("LangGraph: Memory and Context Management. APP -> Multi-user Chat with Advanced Memory")  # 103-120 seccion6
+    st.error("AI Agents and external tools. Apps -> Multi-Agent Security Operations Center")  # 135 seccion8
+    st.success("AI Agents and external tools. Apps ->Internet Search with LLM and Tavily ")  # 138 seccion8
+    st.warning("AI Agents and external tools. Apps -> Cybersecurity Analisys with LLM and VirusTotal")  # seccion8
+    st.info("AI Agents and external tools. Apps -> Tasks Implementation of Thread Intelligence")  # 143-147 seccion8
     
     st.error("Generative AI and Large Language Model (LLM) Apps-> Practice with DeepSeek")  # ...
     st.success("Generative AI and LLM) Apps-> Practice with Claude")  # ...
@@ -57,6 +45,7 @@ with col1:
     st.error("Generative AI, Fine-Tunning, RLHF (Reinforcement Learning from Human Feeback) and PPO (Proximal Policy Optimization). Apps-> RLHF of LLAMA2 (TinyLlama)")  # 155-157
     st.success("Generative AI, LLM, GANs (Generative Adversarial Networks). Apps-> To change a person's face in a video")  # 163
     st.warning("Generative AI, LLM, Diffusion Models, CLIP (Contrastive Language-Image Pre-training). Apps-> Automatic Generations fo Images. DALL-E 3")  # 169
+   
     st.error("Machine Learning App ->")
     st.success("Machine Learning App -> ")
     st.warning("Machine Learning App ->")
@@ -65,6 +54,7 @@ with col1:
     st.success("Machine Learning App ->")
     st.warning("Machine Learning App ->")
     st.error("Machine Learning App ->")
+    
     st.success("Deep Learning: M-P NEURON App -> Implementation")
     st.warning("Deep Learning: M-P NEURON App -> Diagnosis of breast cancer with one M-P neuron")
     st.info("Deep Learning: PRECEPTRON App -> Visualization of the perceptron decision boundary ")
