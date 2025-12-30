@@ -212,7 +212,7 @@ with col2:
     st.write('') 
 
     # GENERATIVE AI
-    st.link_button("https://github.com/web-roberto/generative_ai/tree/main/seccion4-Prompts")
+    st.link_button("Code Prompts","https://github.com/web-roberto/generative_ai/tree/main/seccion4-Prompts")
     st.write('') 
 
     # DEEP LEARNING
