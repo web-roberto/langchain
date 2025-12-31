@@ -164,6 +164,10 @@ with col2:
     st.write('')
     st.link_button("Code", "https://github.com/web-roberto/langchain/tree/main/seccion8")
     st.write('')
+
+    # GENERATIVE AI
+    st.link_button("Code Prompts","https://github.com/web-roberto/generative_ai/tree/main/seccion4-Prompts")
+    st.write('') 
     
     # MACHINE LEARNING
     st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/1_Introducci%C3%B3n%20a%20NumPy.ipynb")
@@ -209,10 +213,6 @@ with col2:
     st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/21_Isolation%20Forest%20-%20Detecci%C3%B3n%20de%20transacciones%20bancarias%20fraudulentas.ipynb")
     st.write('') 
     st.link_button("Code","https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/22_Redes%20Neuronales%20Artificiales%20-%20Detecci%C3%B3n%20de%20transacciones%20bancarias%20fraudulentas.ipynb")
-    st.write('') 
-
-    # GENERATIVE AI
-    st.link_button("Code Prompts","https://github.com/web-roberto/generative_ai/tree/main/seccion4-Prompts")
     st.write('') 
 
     # DEEP LEARNING
