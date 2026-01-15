@@ -158,232 +158,98 @@ for link in links:
             {link['text']}
         </button></a>""",unsafe_allow_html=True) 
 
-# GENERATIVE AI
-# https://github.com/web-roberto/generative_ai/tree/main/seccion4-Prompts
-#st.error("Generative AI and LLM -> Prompt Engineering documentation") # seccion4-Prompts
-#st.error("Generative AI and Large Language Model (LLM) Apps-> Practice with DeepSeek")  # ...
-#st.success("Generative AI and LLM) Apps-> Practice with Claude")  # ...
-#st.warning("Generative AI and LLM Apps-> Practice with Gemini")  # ...
-#st.info("Generative AI and LLM Apps-> email management and automated response")  # 75
-#st.error("Generative AI and LLM Apps-> Chatbo")  # 80
-#st.success("Generative AI and LLM Apps-> malicious email detection with ChatGPT and GPT")  # 92
-#st.warning("Generative AI and LLM Apps-> Connecting my GPTs to the real world: intelligent URL analysis")  # 95
-#st.info("Generative AI and LLM Apps-> Implementing a Chatbot with ChatGPT and GPT")  # 97
-#st.error("Generative AI and LLM Apps-> Integration of Chatbot with external services")  # 99
-#st.success("Generative AI, LLM and Recurrent Neural Networks. Apps-> Integration of Chatbot with external service")  # 99
-#st.warning("Generative AI, LLM and Recurrent Neural Networks. Apps-> Text generation with LSTM")  #106
-#st.info("Generative AI, LLM and Transformers. Apps-> Text Generation with Transformers")  # 121
-#st.error("Generative AI, LLM, Pre-training and Fine-Tunning. Apps-> Fine-tuned LLM (FLAN-T5 by Google)")  # 129
-#st.success("Generative AI, LLM, Pre-training and Fine-Tunning. Apps-> Fine-tuned of an LLM")  # 134
-#st.warning("Generative AI, LLM, Pre-training and Fine-Tunning. Apps-> Fine-tuning of GPT and ChatGPT to call external functions")  # 141
-#st.info("Generative AI, LLM, Pre-training and Fine-Tunning, PEFT (Parameter Efficient Fine-tunning), LoRA (Low-Rank Adaption. Apps-> PEFT of LLAMA2 (Meta) with QLoRA")  # 146,147
-#st.error("Generative AI, Fine-Tunning, RLHF (Reinforcement Learning from Human Feeback) and PPO (Proximal Policy Optimization). Apps-> RLHF of LLAMA2 (TinyLlama)")  # 155-157
-#st.success("Generative AI, LLM, GANs (Generative Adversarial Networks). Apps-> To change a person's face in a video")  # 163
-#st.warning("Generative AI, LLM, Diffusion Models, CLIP (Contrastive Language-Image Pre-training). Apps-> Automatic Generations fo Images. DALL-E 3")  # 169
-
-
 st.subheader("Deep Learning")
 #greenyellow,lime,orangered,yellowgreen,deeppink,    darkmagenta,blueviolet,red, blue
 links = [
     ### DEEP LEARNING
    {"href": "",
-    "text": "",
+    "text": "Deep Learning: M-P NEURON App -> Implementation",
     "fondo": "yellowgreen" }, # 
     {"href": "",
-    "text": "",
+    "text": "Deep Learning: M-P NEURON App -> Diagnosis of breast cancer with one M-P neuron",
     "fondo": "darkmagenta" }, # 
     {"href": "",
-    "text": "",
+    "text": "Deep Learning: PRECEPTRON App -> Visualization of the perceptron decision boundary",
     "fondo": "blue" }, # 
     {"href": "",
-    "text": "",
+    "text": "Deep Learning: PRECEPTRON App -> Classification of Images",
     "fondo": "red" }, # 
     {"href": "",
-    "text": "",
+    "text": "Deep Learning: PRECEPTRON MULTILAYER App -> Decision boundary of the multilayer perceptron",
     "fondo": "yellowgreen" }, # 
     {"href": "",
-    "text": "",
+    "text": "Deep Learning: loss and optimization functions. App -> Classification of images of handwritten digits",
     "fondo": "darkmagenta" }, # 
     {"href": "",
-    "text": "",
+    "text": "Deep Learning: DEEP ARTIFICIAL NEURONAL NETWORK App -> Audio Classification",
     "fondo": "blue" }, # 
     {"href": "",
-    "text": "",
+    "text": "Deep Learning: KERAS App -> Implementation of Artificial Neuronal Network",
     "fondo": "red" }, # 
     {"href": "",
-    "text": "",
+    "text": "Deep Learning: KERAS App -> Training of a Artificial Neuronal Network",
     "fondo": "yellowgreen" }, # 
     {"href": "",
-    "text": "",
+    "text": "Deep Learning: KERAS App -> Decision limit of a deep artificial neural network",
     "fondo": "darkmagenta" }, # 
     {"href": "",
-    "text": "",
+    "text": "Deep Learning: KERAS App -> Audio Classification with Keras",
     "fondo": "blue" }, # 
     {"href": "",
-    "text": "",
+    "text": "Deep Learning: KERAS App -> Regression with Keras",
     "fondo": "red" }, # 
     {"href": "",
-    "text": "",
+    "text": "Deep Learning: Activation Functions App -> Show activation functions",
     "fondo": "yellowgreen" }, # 
     {"href": "",
-    "text": "",
+    "text": "Deep Learning: Activation Functions App -> No use of activation functions",
     "fondo": "darkmagenta" }, # 
     {"href": "",
-    "text": "",
+    "text": "Deep Learning: Activation Functions App -> Feelings classification",
     "fondo": "blue" }, # 
     {"href": "",
-    "text": "",
+    "text": "Deep Learning: Optimization Functions App -> Mini-Batch Gradient Descent",
     "fondo": "red" }, # 
     {"href": "",
-    "text": "",
+    "text": "Deep Learning: Optimization Functions App -> Stochastic Gradient Descent",
     "fondo": "yellowgreen" }, # 
     {"href": "",
-    "text": "",
+    "text": "Deep Learning: Optimization Functions App -> Exponentially Weighted Moving Average",
     "fondo": "darkmagenta" }, # 
     {"href": "",
-    "text": "",
+    "text": "Deep Learning: Optimization Functions App -> Momentum Gradient Descent",
     "fondo": "blue" }, # 
     {"href": "",
-    "text": "",
+    "text": "Deep Learning: Optimization Functions App -> RMSprop",
     "fondo": "red" }, # 
     {"href": "",
-    "text": "",
+    "text": "Deep Learning: Optimization Functions App -> Adam Optimization",
     "fondo": "yellowgreen" }, # 
     {"href": "",
-    "text": "",
+    "text": "Deep Learning: Hyperparams App -> Selection of Hyperparams and text classification",
     "fondo": "darkmagenta" }, # 
     {"href": "",
-    "text": "",
+    "text": "Deep Learning:Optimization Functions App -> Mini-Batch Gradient Descent",
     "fondo": "blue" }, # 
     {"href": "",
-    "text": "",
+    "text": "Deep Learning: TENSORFLOW App -> Tensor and operations",
     "fondo": "red" }, # 
     {"href": "",
-    "text": "",
+    "text": "Deep Learning: TENSORFLOW App -> Create a custom loss function",
     "fondo": "yellowgreen" }, # 
     {"href": "",
-    "text": "",
+    "text": "Deep Learning: TENSORFLOW App -> Create a custom component",
     "fondo": "darkmagenta" }, # 
     {"href": "",
-    "text": "",
+    "text": "Deep Learning: TENSORFLOW App -> Create a custom layer",
     "fondo": "blue" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "red" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "yellowgreen" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "darkmagenta" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "blue" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "red" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "yellowgreen" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "darkmagenta" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "blue" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "red" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "yellowgreen" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "darkmagenta" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "blue" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "red" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "yellowgreen" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "darkmagenta" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "blue" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "red" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "yellowgreen" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "darkmagenta" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "blue" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "red" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "yellowgreen" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "darkmagenta" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "blue" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "red" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "yellowgreen" }, # 
 ]
 for link in links:
     st.markdown(f"""<a href="{link['href']}" target="_blank">
         <button style="background-color:{link['fondo']};color:white;padding:0.5em 1em;margin:0.5em;width:100%;border:none;text-align:start;border-radius:8px;cursor:pointer;">
             {link['text']}
         </button></a>""",unsafe_allow_html=True) 
-
-
-# DEEP LEARNING
-st.success("Deep Learning: M-P NEURON App -> Implementation")
-st.warning("Deep Learning: M-P NEURON App -> Diagnosis of breast cancer with one M-P neuron")
-st.info("Deep Learning: PRECEPTRON App -> Visualization of the perceptron decision boundary ")
-st.error("Deep Learning: PRECEPTRON App -> Classification of Images")
-st.warning("Deep Learning: PRECEPTRON MULTILAYER App -> Decision boundary of the multilayer perceptron")
-st.info("Deep Learning: loss and optimization functions. App -> Classification of images of handwritten digits")
-st.error("Deep Learning: DEEP ARTIFICIAL NEURONAL NETWORK App -> Audio Classification")
-st.success("Deep Learning: KERAS App -> Implementation of Artificial Neuronal Network")
-st.warning("Deep Learning: KERAS App -> Training of a Artificial Neuronal Network")
-st.info("Deep Learning: KERAS App -> Decision limit of a deep artificial neural network")
-st.error("Deep Learning: KERAS App -> Audio Classification with Keras")
-st.success("Deep Learning: KERAS App -> Regression with Keras")
-st.warning("Deep Learning: Activation Functions App -> Show activation functions")
-st.info("Deep Learning: Activation Functions App -> No use of activation functions")
-st.error("Deep Learning: Activation Functions App -> Feelings classification")
-st.success("Deep Learning: Optimization Functions App -> Mini-Batch Gradient Descent")
-st.warning("Deep Learning: Optimization Functions App -> Stochastic Gradient Descent")
-st.info("Deep Learning: Optimization Functions App -> Exponentially Weighted Moving Average")
-st.error("Deep Learning: Optimization Functions App -> Momentum Gradient Descent")
-st.success("Deep Learning: Optimization Functions App -> RMSprop")
-st.warning("Deep Learning: Optimization Functions App -> Adam Optimization")
-st.info("Deep Learning: Hyperparams App -> Selection of Hyperparams and text classification")
-st.error("Deep Learning:Optimization Functions App -> Mini-Batch Gradient Descent")
-st.warning("Deep Learning: TENSORFLOW App -> Tensor and operations")  
-st.warning("Deep Learning: TENSORFLOW App -> Create a custom loss function")  
-st.info("Deep Learning: TENSORFLOW App -> Create a custom component")  
-st.error("Deep Learning: TENSORFLOW App -> Create a custom layer")  
-
-
-  
+    
 st.subheader("AI with LangChain")
 #greenyellow,lime,orangered,yellowgreen,deeppink,    darkmagenta,blueviolet,red, blue
 links = [
