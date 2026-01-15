@@ -8,14 +8,215 @@ st.write('70 Apps by Roberto')
 st.balloons()
 st.snow()
 st.toast("Loading...")
+#greenyellow,lime,orangered,yellowgreen,deeppink,    darkmagenta,blueviolet,red, blue
+links = [
+    {"href": "https://github.com/web-roberto/langchain/tree/main/seccion4",
+    "text": "LangChain App -> Feelings Analysis",
+    "fondo": "darkmagenta" }, # -28-39 seccion4
+    {"href": "",
+    "text": "",
+    "fondo": "blue" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "red" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "yellowgreen" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "darkmagenta" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "blue" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "red" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "yellowgreen" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "darkmagenta" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "blue" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "red" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "yellowgreen" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "darkmagenta" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "blue" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "red" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "yellowgreen" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "darkmagenta" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "blue" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "red" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "yellowgreen" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "darkmagenta" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "blue" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "red" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "yellowgreen" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "darkmagenta" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "blue" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "red" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "yellowgreen" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "darkmagenta" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "blue" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "red" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "yellowgreen" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "darkmagenta" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "blue" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "red" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "yellowgreen" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "darkmagenta" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "blue" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "red" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "yellowgreen" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "darkmagenta" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "blue" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "red" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "yellowgreen" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "darkmagenta" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "blue" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "red" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "yellowgreen" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "darkmagenta" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "blue" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "red" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "yellowgreen" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "darkmagenta" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "blue" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "red" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "yellowgreen" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "darkmagenta" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "blue" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "red" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "yellowgreen" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "darkmagenta" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "blue" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "red" }, # 
+    {"href": "",
+    "text": "",
+    "fondo": "yellowgreen" }, # 
+]
 
-
-col1, col2, col3= st.columns([9,2,2], gap="small", vertical_alignment="top", border=True, width="stretch")
-
+col1, col2 = st.columns([6, 1], gap="small", vertical_alignment="top", border=True, width="stretch")
 with col1:
+    # st.success("Roberto's Cybersecurity Tool -> Google Hacking -> Hacking search engines") # 1_1_1_hacking_buscadores_parte1
+    for link in links:
+      st.markdown(f"""<a href="{link['href']}" target="_blank">
+            <button style="background-color:{link['fondo']};color:white;padding:0.5em 1em;margin:0.5em;width:100%;border:none;text-align:start;border-radius:8px;cursor:pointer;">
+                {link['text']}
+            </button></a>""",unsafe_allow_html=True)
+#col1, col2, col3= st.columns([9,2,2], gap="small", vertical_alignment="top", border=True, width="stretch")
+#with col1:
     # LANGCHAIN
-    st.success("⭐⭐⭐ Top App ->  MULTICHAT MULTIUSER -> Tecnologies....")
-    st.success("LangChain App -> Feelings Analysis") #  -28-39 seccion4
+    #st.success("⭐⭐⭐ Top App ->  MULTICHAT MULTIUSER -> Tecnologies....")
+    #st.success("LangChain App -> Feelings Analysis") #  -28-39 seccion4
     st.warning("LangChain App -> System for Evaluating Curriculums and Candidates with Generative AI") #  46,48,49  seccion4
     st.info("LangChain and RAG(Retrieval Augmented Generation) App -> Legal Assistance and Contract Evaluation System") #  60s seccion5
     st.error("LangGraph App -> Meeting Processing System") # seccion6
@@ -139,10 +340,10 @@ with col1:
 
 with col2:
     # LANGCHAIN
-    st.link_button("Code", "")
-    st.write('')
-    st.link_button("Codeb", "https://github.com/web-roberto/langchain/tree/main/seccion4")
-    st.write('')
+    #st.link_button("Code", "")
+    #st.write('')
+    #st.link_button("Codeb", "https://github.com/web-roberto/langchain/tree/main/seccion4")
+    #st.write('')
     st.link_button("Code", "https://github.com/web-roberto/langchain/tree/main/seccion4")
     st.write('')
     st.link_button("Code", "https://github.com/web-roberto/langchain/tree/main/seccion5")
