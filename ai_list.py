@@ -8,42 +8,59 @@ st.write('70 Apps by Roberto')
 st.balloons()
 st.snow()
 st.toast("Loading...")
+st.subheader("AI with LangChain")
 #greenyellow,lime,orangered,yellowgreen,deeppink,    darkmagenta,blueviolet,red, blue
 links = [
+    ### LANGCHAIN
+    {"href": "",
+    "text": "### LANGCHAIN ######",
+    "fondo": "yellowgreen" }, # 
     {"href": "https://github.com/web-roberto/langchain/tree/main/seccion4",
     "text": "LangChain App -> Feelings Analysis",
     "fondo": "darkmagenta" }, # -28-39 seccion4
-    {"href": "",
-    "text": "",
-    "fondo": "blue" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "red" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "yellowgreen" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "darkmagenta" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "blue" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "red" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "yellowgreen" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "darkmagenta" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "blue" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "red" }, # 
-    {"href": "",
+    {"href": "https://github.com/web-roberto/langchain/tree/main/seccion4",
+    "text": "LangChain App -> System for Evaluating Curriculums and Candidates with Generative AI",
+    "fondo": "blue" }, # 46,48,49  seccion4
+    {"href": "https://github.com/web-roberto/langchain/tree/main/seccion5",
+    "text": "LangChain and RAG(Retrieval Augmented Generation) App -> Legal Assistance and Contract Evaluation System",
+    "fondo": "red" }, #  60s seccion5
+    {"href": "https://github.com/web-roberto/langchain/tree/main/seccion6",
+    "text": "LangGraph App -> Meeting Processing System",
+    "fondo": "yellowgreen" }, # seccion6
+    {"href": "https://github.com/web-roberto/langchain/tree/main/seccion6",
+    "text": "LangGraph: Human-in-the-Loop, Checkpoints App -> Helpdesk with AI, Langgraph and RAG",
+    "fondo": "darkmagenta" }, # seccion6
+    {"href": "https://github.com/web-roberto/langchain/tree/main/seccion7",
+    "text": "LangGraph: Memory and Context Management. APP -> Vectorial Memoroy with Langgraph",
+    "fondo": "blue" }, # seccion7
+    {"href": "https://github.com/web-roberto/langchain/tree/main/seccion7",
+    "text": "LangGraph: Memory and Context Management. APP -> Multi-user Chat with Advanced Memory",
+    "fondo": "red" }, # 103-120 seccion6
+    {"href": "https://github.com/web-roberto/langchain/tree/main/seccion8",
+    "text": "AI Agents and external tools. Apps -> Multi-Agent Security Operations Center",
+    "fondo": "yellowgreen" }, # 135 seccion8
+    {"href": "https://github.com/web-roberto/langchain/tree/main/seccion8",
+    "text": "AI Agents and external tools. Apps ->Internet Search with LLM and Tavily",
+    "fondo": "darkmagenta" }, # 138 seccion8
+    {"href": "https://github.com/web-roberto/langchain/tree/main/seccion8",
+    "text": "AI Agents and external tools. Apps -> Cybersecurity Analisys with LLM and VirusTotal",
+    "fondo": "blue" }, #  seccion8
+    {"href": "https://github.com/web-roberto/langchain/tree/main/seccion8",
+    "text": "AI Agents and external tools. Apps -> Tasks Implementation of Thread Intelligence",
+    "fondo": "red" }, # 143-147 seccion8
+
+]
+for link in links:
+    st.markdown(f"""<a href="{link['href']}" target="_blank">
+        <button style="background-color:{link['fondo']};color:white;padding:0.5em 1em;margin:0.5em;width:100%;border:none;text-align:start;border-radius:8px;cursor:pointer;">
+            {link['text']}
+        </button></a>""",unsafe_allow_html=True)
+
+st.subheader("Generative AI")
+#greenyellow,lime,orangered,yellowgreen,deeppink,    darkmagenta,blueviolet,red, blue
+links = [
+    ### GENERATIVE AI
+   {"href": "",
     "text": "",
     "fondo": "yellowgreen" }, # 
     {"href": "",
@@ -203,252 +220,208 @@ links = [
     "text": "",
     "fondo": "yellowgreen" }, # 
 ]
+for link in links:
+    st.markdown(f"""<a href="{link['href']}" target="_blank">
+        <button style="background-color:{link['fondo']};color:white;padding:0.5em 1em;margin:0.5em;width:100%;border:none;text-align:start;border-radius:8px;cursor:pointer;">
+            {link['text']}
+        </button></a>""",unsafe_allow_html=True) 
 
-col1, col2 = st.columns([6, 1], gap="small", vertical_alignment="top", border=True, width="stretch")
-with col1:
-    # st.success("Roberto's Cybersecurity Tool -> Google Hacking -> Hacking search engines") # 1_1_1_hacking_buscadores_parte1
-    for link in links:
-      st.markdown(f"""<a href="{link['href']}" target="_blank">
-            <button style="background-color:{link['fondo']};color:white;padding:0.5em 1em;margin:0.5em;width:100%;border:none;text-align:start;border-radius:8px;cursor:pointer;">
-                {link['text']}
-            </button></a>""",unsafe_allow_html=True)
-#col1, col2, col3= st.columns([9,2,2], gap="small", vertical_alignment="top", border=True, width="stretch")
-#with col1:
-    # LANGCHAIN
-    #st.success("⭐⭐⭐ Top App ->  MULTICHAT MULTIUSER -> Tecnologies....")
-    #st.success("LangChain App -> Feelings Analysis") #  -28-39 seccion4
-    st.warning("LangChain App -> System for Evaluating Curriculums and Candidates with Generative AI") #  46,48,49  seccion4
-    st.info("LangChain and RAG(Retrieval Augmented Generation) App -> Legal Assistance and Contract Evaluation System") #  60s seccion5
-    st.error("LangGraph App -> Meeting Processing System") # seccion6
-    st.success("LangGraph: Human-in-the-Loop, Checkpoints App -> Helpdesk with AI, Langgraph and RAG ")  # seccion6
-    st.warning("LangGraph: Memory and Context Management. APP -> Vectorial Memoroy with Langgraph")  # seccion7
-    st.info("LangGraph: Memory and Context Management. APP -> Multi-user Chat with Advanced Memory")  # 103-120 seccion6
-    st.error("AI Agents and external tools. Apps -> Multi-Agent Security Operations Center")  # 135 seccion8
-    st.success("AI Agents and external tools. Apps ->Internet Search with LLM and Tavily ")  # 138 seccion8
-    st.warning("AI Agents and external tools. Apps -> Cybersecurity Analisys with LLM and VirusTotal")  # seccion8
-    st.info("AI Agents and external tools. Apps -> Tasks Implementation of Thread Intelligence")  # 143-147 seccion8
-    
-    # GENERATIVE AI
-    # https://github.com/web-roberto/generative_ai/tree/main/seccion4-Prompts
-    st.error("Generative AI and LLM -> Prompt Engineering documentation") # seccion4-Prompts
-    st.error("Generative AI and Large Language Model (LLM) Apps-> Practice with DeepSeek")  # ...
-    st.success("Generative AI and LLM) Apps-> Practice with Claude")  # ...
-    st.warning("Generative AI and LLM Apps-> Practice with Gemini")  # ...
-    st.info("Generative AI and LLM Apps-> email management and automated response")  # 75
-    st.error("Generative AI and LLM Apps-> Chatbo")  # 80
-    st.success("Generative AI and LLM Apps-> malicious email detection with ChatGPT and GPT")  # 92
-    st.warning("Generative AI and LLM Apps-> Connecting my GPTs to the real world: intelligent URL analysis")  # 95
-    st.info("Generative AI and LLM Apps-> Implementing a Chatbot with ChatGPT and GPT")  # 97
-    st.error("Generative AI and LLM Apps-> Integration of Chatbot with external services")  # 99
-    st.success("Generative AI, LLM and Recurrent Neural Networks. Apps-> Integration of Chatbot with external service")  # 99
-    st.warning("Generative AI, LLM and Recurrent Neural Networks. Apps-> Text generation with LSTM")  #106
-    st.info("Generative AI, LLM and Transformers. Apps-> Text Generation with Transformers")  # 121
-    st.error("Generative AI, LLM, Pre-training and Fine-Tunning. Apps-> Fine-tuned LLM (FLAN-T5 by Google)")  # 129
-    st.success("Generative AI, LLM, Pre-training and Fine-Tunning. Apps-> Fine-tuned of an LLM")  # 134
-    st.warning("Generative AI, LLM, Pre-training and Fine-Tunning. Apps-> Fine-tuning of GPT and ChatGPT to call external functions")  # 141
-    st.info("Generative AI, LLM, Pre-training and Fine-Tunning, PEFT (Parameter Efficient Fine-tunning), LoRA (Low-Rank Adaption. Apps-> PEFT of LLAMA2 (Meta) with QLoRA")  # 146,147
-    st.error("Generative AI, Fine-Tunning, RLHF (Reinforcement Learning from Human Feeback) and PPO (Proximal Policy Optimization). Apps-> RLHF of LLAMA2 (TinyLlama)")  # 155-157
-    st.success("Generative AI, LLM, GANs (Generative Adversarial Networks). Apps-> To change a person's face in a video")  # 163
-    st.warning("Generative AI, LLM, Diffusion Models, CLIP (Contrastive Language-Image Pre-training). Apps-> Automatic Generations fo Images. DALL-E 3")  # 169
 
-    # MACHINE LEARNING
-    # https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/1_Introducci%C3%B3n%20a%20NumPy.ipynb
-    st.error("Practice of Machine Learning -> Introduction to NumPy")
-    # https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/2_Introducci%C3%B3n%20a%20Pandas.ipynb
-    st.success("Practice of Machine Learning -> Introduction to Panda")
-    # https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/3_Introducci%C3%B3n%20a%20Matplotlib.ipynb
-    st.warning("Practice of Machine Learning -> Introduction to Matplotlib")
-    # https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/4_Regresi%C3%B3n%20Lineal%20-%20Predicci%C3%B3n%20del%20coste%20de%20un%20incidente%20de%20seguridad.ipynb
-    st.info("Practice of Machine Learning -> Linear Regression: Cost of a security incident")
-    # https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/5_Regresi%C3%B3n%20Log%C3%ADstica%20-%20Detecci%C3%B3n%20de%20SPAM.ipynb
-    st.error("Practice of Machine Learning App -> Logistic Regression: SPAM Detection")
-    # https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/6_Visualizaci%C3%B3n%20del%20conjunto%20de%20datos.ipynb
-    st.success("Practice of Machine Learning -> Visualization of the dataset")
-    # https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/7_Divisi%C3%B3n%20del%20conjunto%20de%20datos.ipynb
-    st.warning("Practice of Machine Learning -> Division of the data set")
-    # https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/8_Preparaci%C3%B3n%20del%20conjunto%20de%20datos.ipynb
-    st.error("Practice of Machine Learning  -> Data set preparation.")
-    # https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/9_Creaci%C3%B3n%20de%20Transformadores%20y%20Pipelines%20personalizados.ipynb
-    st.error("Machine Learning  -> Creation of custom transformers and pipelines" )
-    # https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/10_Evaluaci%C3%B3n%20de%20resultados.ipynb
-    st.warning("Practice of Machine Learning  -> Evaluation of results")
-    # https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/11_Support%20Vector%20Machine%20-%20Detecci%C3%B3n%20de%20URLs%20maliciosas.ipynb
-    st.error("Practice of Machine Learning  -> Support Vector Machine (SVM)")
-    # https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/12_%C3%81rboles%20de%20decisi%C3%B3n%20-%20Detecci%C3%B3n%20de%20malware%20en%20Android.ipynb
-    st.info("Practice of Machine Learning  -> Decision trees")
-    # https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/13_Random%20Forests%20-%20Detecci%C3%B3n%20de%20Malware%20en%20Android.ipynb
-    st.success("Practice of Machine Learning  -> Random Forest")
-    # https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/14_T%C3%A9cnicas%20de%20selecci%C3%B3n%20de%20caracter%C3%ADsticas.ipynb
-    st.warning("Practice of Machine Learning  -> Features selection")
-    # https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/15_PCA%20-%20Extracci%C3%B3n%20de%20caracter%C3%ADsticas.ipynb
-    st.error("Practice of Machine Learning  -> Principal Component Analysis (PCA)")
-    # https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/16_T%C3%A9cnicas%20de%20selecci%C3%B3n%20del%20modelo.ipynb
-    st.success("Practice of Machine Learning  -> Model selection")
-    # https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/17_KMEANS%20-%20Detecci%C3%B3n%20de%20transacciones%20bancarias%20fraudulentas.ipynb
-    st.info("Machine Learning  -> KMEANS - Detection of fraudulent bank transactions")
-    # https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/18_DBSCAN%20-%20Detecci%C3%B3n%20de%20transacciones%20bancarias%20fraudulentas.ipynb
-    st.error("Machine Learning  -> DBSCAN - Detection of fraudulent bank transactions")
-    # https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/19_Naive%20Bayes%20-%20Detecci%C3%B3n%20de%20SPAM.ipynb
-    st.success("Practice of Machine Learning  -> Naive Bayes - SPAM Detection")
-    # https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/20_Distribuci%C3%B3n%20Gaussiana%20-%20Detecci%C3%B3n%20de%20transacciones%20bancarias%20fraudulentas.ipynb    st.error("Practice of Machine Learning  -> Gaussian Distribution - Detection of fraudulent bank transactions")
-    st.warning("Practice of Machine Learning  -> Gaussian Distribution")
-    # https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/21_Isolation%20Forest%20-%20Detecci%C3%B3n%20de%20transacciones%20bancarias%20fraudulentas.ipynb
-    st.error("Practice of Machine Learning  -> Isolation Forest")
-    # https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/22_Redes%20Neuronales%20Artificiales%20-%20Detecci%C3%B3n%20de%20transacciones%20bancarias%20fraudulentas.ipynb
-    st.info("Practice of Machine Learning  -> Artificial Neural Networks - Detection of fraudulent bank transactions")
-    
-    # DEEP LEARNING
-    st.success("Deep Learning: M-P NEURON App -> Implementation")
-    st.warning("Deep Learning: M-P NEURON App -> Diagnosis of breast cancer with one M-P neuron")
-    st.info("Deep Learning: PRECEPTRON App -> Visualization of the perceptron decision boundary ")
-    st.error("Deep Learning: PRECEPTRON App -> Classification of Images")
-    st.warning("Deep Learning: PRECEPTRON MULTILAYER App -> Decision boundary of the multilayer perceptron")
-    st.info("Deep Learning: loss and optimization functions. App -> Classification of images of handwritten digits")
-    st.error("Deep Learning: DEEP ARTIFICIAL NEURONAL NETWORK App -> Audio Classification")
-    st.success("Deep Learning: KERAS App -> Implementation of Artificial Neuronal Network")
-    st.warning("Deep Learning: KERAS App -> Training of a Artificial Neuronal Network")
-    st.info("Deep Learning: KERAS App -> Decision limit of a deep artificial neural network")
-    st.error("Deep Learning: KERAS App -> Audio Classification with Keras")
-    st.success("Deep Learning: KERAS App -> Regression with Keras")
-    st.warning("Deep Learning: Activation Functions App -> Show activation functions")
-    st.info("Deep Learning: Activation Functions App -> No use of activation functions")
-    st.error("Deep Learning: Activation Functions App -> Feelings classification")
-    st.success("Deep Learning: Optimization Functions App -> Mini-Batch Gradient Descent")
-    st.warning("Deep Learning: Optimization Functions App -> Stochastic Gradient Descent")
-    st.info("Deep Learning: Optimization Functions App -> Exponentially Weighted Moving Average")
-    st.error("Deep Learning: Optimization Functions App -> Momentum Gradient Descent")
-    st.success("Deep Learning: Optimization Functions App -> RMSprop")
-    st.warning("Deep Learning: Optimization Functions App -> Adam Optimization")
-    st.info("Deep Learning: Hyperparams App -> Selection of Hyperparams and text classification")
-    st.error("Deep Learning:Optimization Functions App -> Mini-Batch Gradient Descent")
-    st.warning("Deep Learning: TENSORFLOW App -> Tensor and operations")  
-    st.warning("Deep Learning: TENSORFLOW App -> Create a custom loss function")  
-    st.info("Deep Learning: TENSORFLOW App -> Create a custom component")  
-    st.error("Deep Learning: TENSORFLOW App -> Create a custom layer")  
+# GENERATIVE AI
+# https://github.com/web-roberto/generative_ai/tree/main/seccion4-Prompts
+st.error("Generative AI and LLM -> Prompt Engineering documentation") # seccion4-Prompts
+st.error("Generative AI and Large Language Model (LLM) Apps-> Practice with DeepSeek")  # ...
+st.success("Generative AI and LLM) Apps-> Practice with Claude")  # ...
+st.warning("Generative AI and LLM Apps-> Practice with Gemini")  # ...
+st.info("Generative AI and LLM Apps-> email management and automated response")  # 75
+st.error("Generative AI and LLM Apps-> Chatbo")  # 80
+st.success("Generative AI and LLM Apps-> malicious email detection with ChatGPT and GPT")  # 92
+st.warning("Generative AI and LLM Apps-> Connecting my GPTs to the real world: intelligent URL analysis")  # 95
+st.info("Generative AI and LLM Apps-> Implementing a Chatbot with ChatGPT and GPT")  # 97
+st.error("Generative AI and LLM Apps-> Integration of Chatbot with external services")  # 99
+st.success("Generative AI, LLM and Recurrent Neural Networks. Apps-> Integration of Chatbot with external service")  # 99
+st.warning("Generative AI, LLM and Recurrent Neural Networks. Apps-> Text generation with LSTM")  #106
+st.info("Generative AI, LLM and Transformers. Apps-> Text Generation with Transformers")  # 121
+st.error("Generative AI, LLM, Pre-training and Fine-Tunning. Apps-> Fine-tuned LLM (FLAN-T5 by Google)")  # 129
+st.success("Generative AI, LLM, Pre-training and Fine-Tunning. Apps-> Fine-tuned of an LLM")  # 134
+st.warning("Generative AI, LLM, Pre-training and Fine-Tunning. Apps-> Fine-tuning of GPT and ChatGPT to call external functions")  # 141
+st.info("Generative AI, LLM, Pre-training and Fine-Tunning, PEFT (Parameter Efficient Fine-tunning), LoRA (Low-Rank Adaption. Apps-> PEFT of LLAMA2 (Meta) with QLoRA")  # 146,147
+st.error("Generative AI, Fine-Tunning, RLHF (Reinforcement Learning from Human Feeback) and PPO (Proximal Policy Optimization). Apps-> RLHF of LLAMA2 (TinyLlama)")  # 155-157
+st.success("Generative AI, LLM, GANs (Generative Adversarial Networks). Apps-> To change a person's face in a video")  # 163
+st.warning("Generative AI, LLM, Diffusion Models, CLIP (Contrastive Language-Image Pre-training). Apps-> Automatic Generations fo Images. DALL-E 3")  # 169
 
-    # N8N
-    st.error("N8N: -> ")  
-    st.error("N8N: -> ")  
-    st.error("N8N: -> ")  
-    st.error("N8N: -> ")  
+# MACHINE LEARNING
+# https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/1_Introducci%C3%B3n%20a%20NumPy.ipynb
+st.error("Practice of Machine Learning -> Introduction to NumPy")
+# https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/2_Introducci%C3%B3n%20a%20Pandas.ipynb
+st.success("Practice of Machine Learning -> Introduction to Panda")
+# https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/3_Introducci%C3%B3n%20a%20Matplotlib.ipynb
+st.warning("Practice of Machine Learning -> Introduction to Matplotlib")
+# https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/4_Regresi%C3%B3n%20Lineal%20-%20Predicci%C3%B3n%20del%20coste%20de%20un%20incidente%20de%20seguridad.ipynb
+st.info("Practice of Machine Learning -> Linear Regression: Cost of a security incident")
+# https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/5_Regresi%C3%B3n%20Log%C3%ADstica%20-%20Detecci%C3%B3n%20de%20SPAM.ipynb
+st.error("Practice of Machine Learning App -> Logistic Regression: SPAM Detection")
+# https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/6_Visualizaci%C3%B3n%20del%20conjunto%20de%20datos.ipynb
+st.success("Practice of Machine Learning -> Visualization of the dataset")
+# https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/7_Divisi%C3%B3n%20del%20conjunto%20de%20datos.ipynb
+st.warning("Practice of Machine Learning -> Division of the data set")
+# https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/8_Preparaci%C3%B3n%20del%20conjunto%20de%20datos.ipynb
+st.error("Practice of Machine Learning  -> Data set preparation.")
+# https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/9_Creaci%C3%B3n%20de%20Transformadores%20y%20Pipelines%20personalizados.ipynb
+st.error("Machine Learning  -> Creation of custom transformers and pipelines" )
+# https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/10_Evaluaci%C3%B3n%20de%20resultados.ipynb
+st.warning("Practice of Machine Learning  -> Evaluation of results")
+# https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/11_Support%20Vector%20Machine%20-%20Detecci%C3%B3n%20de%20URLs%20maliciosas.ipynb
+st.error("Practice of Machine Learning  -> Support Vector Machine (SVM)")
+# https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/12_%C3%81rboles%20de%20decisi%C3%B3n%20-%20Detecci%C3%B3n%20de%20malware%20en%20Android.ipynb
+st.info("Practice of Machine Learning  -> Decision trees")
+# https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/13_Random%20Forests%20-%20Detecci%C3%B3n%20de%20Malware%20en%20Android.ipynb
+st.success("Practice of Machine Learning  -> Random Forest")
+# https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/14_T%C3%A9cnicas%20de%20selecci%C3%B3n%20de%20caracter%C3%ADsticas.ipynb
+st.warning("Practice of Machine Learning  -> Features selection")
+# https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/15_PCA%20-%20Extracci%C3%B3n%20de%20caracter%C3%ADsticas.ipynb
+st.error("Practice of Machine Learning  -> Principal Component Analysis (PCA)")
+# https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/16_T%C3%A9cnicas%20de%20selecci%C3%B3n%20del%20modelo.ipynb
+st.success("Practice of Machine Learning  -> Model selection")
+# https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/17_KMEANS%20-%20Detecci%C3%B3n%20de%20transacciones%20bancarias%20fraudulentas.ipynb
+st.info("Machine Learning  -> KMEANS - Detection of fraudulent bank transactions")
+# https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/18_DBSCAN%20-%20Detecci%C3%B3n%20de%20transacciones%20bancarias%20fraudulentas.ipynb
+st.error("Machine Learning  -> DBSCAN - Detection of fraudulent bank transactions")
+# https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/19_Naive%20Bayes%20-%20Detecci%C3%B3n%20de%20SPAM.ipynb
+st.success("Practice of Machine Learning  -> Naive Bayes - SPAM Detection")
+# https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/20_Distribuci%C3%B3n%20Gaussiana%20-%20Detecci%C3%B3n%20de%20transacciones%20bancarias%20fraudulentas.ipynb    st.error("Practice of Machine Learning  -> Gaussian Distribution - Detection of fraudulent bank transactions")
+st.warning("Practice of Machine Learning  -> Gaussian Distribution")
+# https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/21_Isolation%20Forest%20-%20Detecci%C3%B3n%20de%20transacciones%20bancarias%20fraudulentas.ipynb
+st.error("Practice of Machine Learning  -> Isolation Forest")
+# https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/22_Redes%20Neuronales%20Artificiales%20-%20Detecci%C3%B3n%20de%20transacciones%20bancarias%20fraudulentas.ipynb
+st.info("Practice of Machine Learning  -> Artificial Neural Networks - Detection of fraudulent bank transactions")
 
-    # MCP
-    st.error("MCP: -> ")  
-    st.error("MCP: -> ")  
-    st.error("MCP: -> ")  
-    st.error("MCP: -> ")  
+# DEEP LEARNING
+st.success("Deep Learning: M-P NEURON App -> Implementation")
+st.warning("Deep Learning: M-P NEURON App -> Diagnosis of breast cancer with one M-P neuron")
+st.info("Deep Learning: PRECEPTRON App -> Visualization of the perceptron decision boundary ")
+st.error("Deep Learning: PRECEPTRON App -> Classification of Images")
+st.warning("Deep Learning: PRECEPTRON MULTILAYER App -> Decision boundary of the multilayer perceptron")
+st.info("Deep Learning: loss and optimization functions. App -> Classification of images of handwritten digits")
+st.error("Deep Learning: DEEP ARTIFICIAL NEURONAL NETWORK App -> Audio Classification")
+st.success("Deep Learning: KERAS App -> Implementation of Artificial Neuronal Network")
+st.warning("Deep Learning: KERAS App -> Training of a Artificial Neuronal Network")
+st.info("Deep Learning: KERAS App -> Decision limit of a deep artificial neural network")
+st.error("Deep Learning: KERAS App -> Audio Classification with Keras")
+st.success("Deep Learning: KERAS App -> Regression with Keras")
+st.warning("Deep Learning: Activation Functions App -> Show activation functions")
+st.info("Deep Learning: Activation Functions App -> No use of activation functions")
+st.error("Deep Learning: Activation Functions App -> Feelings classification")
+st.success("Deep Learning: Optimization Functions App -> Mini-Batch Gradient Descent")
+st.warning("Deep Learning: Optimization Functions App -> Stochastic Gradient Descent")
+st.info("Deep Learning: Optimization Functions App -> Exponentially Weighted Moving Average")
+st.error("Deep Learning: Optimization Functions App -> Momentum Gradient Descent")
+st.success("Deep Learning: Optimization Functions App -> RMSprop")
+st.warning("Deep Learning: Optimization Functions App -> Adam Optimization")
+st.info("Deep Learning: Hyperparams App -> Selection of Hyperparams and text classification")
+st.error("Deep Learning:Optimization Functions App -> Mini-Batch Gradient Descent")
+st.warning("Deep Learning: TENSORFLOW App -> Tensor and operations")  
+st.warning("Deep Learning: TENSORFLOW App -> Create a custom loss function")  
+st.info("Deep Learning: TENSORFLOW App -> Create a custom component")  
+st.error("Deep Learning: TENSORFLOW App -> Create a custom layer")  
 
-with col2:
-    # LANGCHAIN
-    #st.link_button("Code", "")
-    #st.write('')
-    #st.link_button("Codeb", "https://github.com/web-roberto/langchain/tree/main/seccion4")
-    #st.write('')
-    st.link_button("Code", "https://github.com/web-roberto/langchain/tree/main/seccion4")
-    st.write('')
-    st.link_button("Code", "https://github.com/web-roberto/langchain/tree/main/seccion5")
-    st.write('')
-    st.write('')
-    st.link_button("Code", "https://github.com/web-roberto/langchain/tree/main/seccion6")
-    st.write('')
-    st.link_button("Code", "https://github.com/web-roberto/langchain/tree/main/seccion6")
-    st.write('')
-    st.link_button("Code", "https://github.com/web-roberto/langchain/tree/main/seccion7")
-    st.write('')
-    st.link_button("Code", "https://github.com/web-roberto/langchain/tree/main/seccion7")
-    st.write('')
-    st.link_button("Code", "https://github.com/web-roberto/langchain/tree/main/seccion8")
-    st.write('')
-    st.link_button("Code", "https://github.com/web-roberto/langchain/tree/main/seccion8")
-    st.write('')
-    st.link_button("Code", "https://github.com/web-roberto/langchain/tree/main/seccion8")
-    st.write('')
-    st.link_button("Code", "https://github.com/web-roberto/langchain/tree/main/seccion8")
-    st.write('')
+# N8N
+st.error("N8N: -> ")  
+st.error("N8N: -> ")  
+st.error("N8N: -> ")  
+st.error("N8N: -> ")  
 
-    # GENERATIVE AI
-    st.link_button("Code Prompts","https://github.com/web-roberto/generative_ai/tree/main/seccion4-Prompts")
-    st.write('') 
-    
-    # MACHINE LEARNING
-    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/1_Introducci%C3%B3n%20a%20NumPy.ipynb")
-    st.write('')
-    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/2_Introducci%C3%B3n%20a%20Pandas.ipynb")
-    st.write('')
-    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/3_Introducci%C3%B3n%20a%20Matplotlib.ipynb")
-    st.write('')
-    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/4_Regresi%C3%B3n%20Lineal%20-%20Predicci%C3%B3n%20del%20coste%20de%20un%20incidente%20de%20seguridad.ipynb")
-    st.write('')
-    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/5_Regresi%C3%B3n%20Log%C3%ADstica%20-%20Detecci%C3%B3n%20de%20SPAM.ipynb")
-    st.write('')
-    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/6_Visualizaci%C3%B3n%20del%20conjunto%20de%20datos.ipynb")
-    st.write('')
-    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/7_Divisi%C3%B3n%20del%20conjunto%20de%20datos.ipynb")
-    st.write('')
-    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/8_Preparaci%C3%B3n%20del%20conjunto%20de%20datos.ipynb")
-    st.write('')
-    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/9_Creaci%C3%B3n%20de%20Transformadores%20y%20Pipelines%20personalizados.ipynb")
-    st.write('')
-    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/10_Evaluaci%C3%B3n%20de%20resultados.ipynb")
-    st.write('')
-    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/11_Support%20Vector%20Machine%20-%20Detecci%C3%B3n%20de%20URLs%20maliciosas.ipynb")
-    st.write('')
-    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/12_%C3%81rboles%20de%20decisi%C3%B3n%20-%20Detecci%C3%B3n%20de%20malware%20en%20Android.ipynb")
-    st.write('')
-    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/13_Random%20Forests%20-%20Detecci%C3%B3n%20de%20Malware%20en%20Android.ipynb")
-    st.write('')
-    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/14_T%C3%A9cnicas%20de%20selecci%C3%B3n%20de%20caracter%C3%ADsticas.ipynb")
-    st.write('')
-    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/15_PCA%20-%20Extracci%C3%B3n%20de%20caracter%C3%ADsticas.ipynb")
-    st.write('')
-    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/16_T%C3%A9cnicas%20de%20selecci%C3%B3n%20del%20modelo.ipynb")
-    st.write('')
-    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/17_KMEANS%20-%20Detecci%C3%B3n%20de%20transacciones%20bancarias%20fraudulentas.ipynb")
-    st.write('')
-    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/18_DBSCAN%20-%20Detecci%C3%B3n%20de%20transacciones%20bancarias%20fraudulentas.ipynb")
-    st.write('')
-    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/19_Naive%20Bayes%20-%20Detecci%C3%B3n%20de%20SPAM.ipynb")
-    st.write('')
-    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/20_Distribuci%C3%B3n%20Gaussiana%20-%20Detecci%C3%B3n%20de%20transacciones%20bancarias%20fraudulentas.ipynb")    
-    st.write('')
-    st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/21_Isolation%20Forest%20-%20Detecci%C3%B3n%20de%20transacciones%20bancarias%20fraudulentas.ipynb")
-    st.write('') 
-    st.link_button("Code","https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/22_Redes%20Neuronales%20Artificiales%20-%20Detecci%C3%B3n%20de%20transacciones%20bancarias%20fraudulentas.ipynb")
-    st.write('') 
+# MCP
+st.error("MCP: -> ")  
+st.error("MCP: -> ")  
+st.error("MCP: -> ")  
+st.error("MCP: -> ")  
 
-    # DEEP LEARNING
-    st.link_button("")
-    st.write('') 
-    
-    # N8N
-    st.link_button("")
-    st.write('') 
-    
-    # MPC
-    st.link_button("")
-    st.write('') 
-    
-with col3:
-    # LANGCHAIN
-    st.link_button("Run App", "")
-    st.write('')     
-    
-    # MACHINE LEARNING
-    st.link_button("Run App", "")
-    st.write('') 
 
-    # GENERATIVE AI
-    st.link_button("Run App", "")
-    st.write('') 
 
-    # DEEP LEARNING
-    st.link_button("Run App", "")
-    st.write('')
-    
-    # N8N
-    st.link_button("Run App", "")
-    st.write('')
-    
-    # MPC
-    st.link_button("Run App", "")
-    st.write('')
+# GENERATIVE AI
+st.link_button("Code Prompts","https://github.com/web-roberto/generative_ai/tree/main/seccion4-Prompts")
+st.write('') 
+
+# MACHINE LEARNING
+st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/1_Introducci%C3%B3n%20a%20NumPy.ipynb")
+st.write('')
+st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/2_Introducci%C3%B3n%20a%20Pandas.ipynb")
+st.write('')
+st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/3_Introducci%C3%B3n%20a%20Matplotlib.ipynb")
+st.write('')
+st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/4_Regresi%C3%B3n%20Lineal%20-%20Predicci%C3%B3n%20del%20coste%20de%20un%20incidente%20de%20seguridad.ipynb")
+st.write('')
+st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/5_Regresi%C3%B3n%20Log%C3%ADstica%20-%20Detecci%C3%B3n%20de%20SPAM.ipynb")
+st.write('')
+st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/6_Visualizaci%C3%B3n%20del%20conjunto%20de%20datos.ipynb")
+st.write('')
+st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/7_Divisi%C3%B3n%20del%20conjunto%20de%20datos.ipynb")
+st.write('')
+st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/8_Preparaci%C3%B3n%20del%20conjunto%20de%20datos.ipynb")
+st.write('')
+st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/9_Creaci%C3%B3n%20de%20Transformadores%20y%20Pipelines%20personalizados.ipynb")
+st.write('')
+st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/10_Evaluaci%C3%B3n%20de%20resultados.ipynb")
+st.write('')
+st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/11_Support%20Vector%20Machine%20-%20Detecci%C3%B3n%20de%20URLs%20maliciosas.ipynb")
+st.write('')
+st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/12_%C3%81rboles%20de%20decisi%C3%B3n%20-%20Detecci%C3%B3n%20de%20malware%20en%20Android.ipynb")
+st.write('')
+st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/13_Random%20Forests%20-%20Detecci%C3%B3n%20de%20Malware%20en%20Android.ipynb")
+st.write('')
+st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/14_T%C3%A9cnicas%20de%20selecci%C3%B3n%20de%20caracter%C3%ADsticas.ipynb")
+st.write('')
+st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/15_PCA%20-%20Extracci%C3%B3n%20de%20caracter%C3%ADsticas.ipynb")
+st.write('')
+st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/16_T%C3%A9cnicas%20de%20selecci%C3%B3n%20del%20modelo.ipynb")
+st.write('')
+st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/17_KMEANS%20-%20Detecci%C3%B3n%20de%20transacciones%20bancarias%20fraudulentas.ipynb")
+st.write('')
+st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/18_DBSCAN%20-%20Detecci%C3%B3n%20de%20transacciones%20bancarias%20fraudulentas.ipynb")
+st.write('')
+st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/19_Naive%20Bayes%20-%20Detecci%C3%B3n%20de%20SPAM.ipynb")
+st.write('')
+st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/20_Distribuci%C3%B3n%20Gaussiana%20-%20Detecci%C3%B3n%20de%20transacciones%20bancarias%20fraudulentas.ipynb")    
+st.write('')
+st.link_button("Code", "https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/21_Isolation%20Forest%20-%20Detecci%C3%B3n%20de%20transacciones%20bancarias%20fraudulentas.ipynb")
+st.write('') 
+st.link_button("Code","https://github.com/web-roberto/MachineLearning_python/blob/main/casos_practicos_machine_learning/22_Redes%20Neuronales%20Artificiales%20-%20Detecci%C3%B3n%20de%20transacciones%20bancarias%20fraudulentas.ipynb")
+st.write('') 
+
+# DEEP LEARNING
+#st.link_button("")
+#st.write('') 
+
+# N8N
+#st.link_button("")
+#st.write('') 
+
+# MPC
+#st.link_button("")
+#st.write('') 
+
+# with col3:
+#     # LANGCHAIN
+#     st.link_button("Run App", "")
+#     st.write('')     
+
+#     # MACHINE LEARNING
+#     st.link_button("Run App", "")
+#     st.write('') 
+
+#     # GENERATIVE AI
+#     st.link_button("Run App", "")
+#     st.write('') 
+
+#     # DEEP LEARNING
+#     st.link_button("Run App", "")
+#     st.write('')
+
+#     # N8N
+#     st.link_button("Run App", "")
+#     st.write('')
+
+#     # MPC
+#     st.link_button("Run App", "")
+#     st.write('')
