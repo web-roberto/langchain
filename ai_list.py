@@ -339,8 +339,6 @@ links = [
     {"href": "MCP",
     "text": "MCP",
     "fondo": "red" }, # 
-    {"href": "MCP",
-    "text": "MCP",
 ]
 for link in links:
     st.markdown(f"""<a href="{link['href']}" target="_blank">
