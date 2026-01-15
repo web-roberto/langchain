@@ -182,7 +182,6 @@ for link in links:
 #st.warning("Generative AI, LLM, Diffusion Models, CLIP (Contrastive Language-Image Pre-training). Apps-> Automatic Generations fo Images. DALL-E 3")  # 169
 
 
-
 st.subheader("Deep Learning")
 #greenyellow,lime,orangered,yellowgreen,deeppink,    darkmagenta,blueviolet,red, blue
 links = [
@@ -438,165 +437,18 @@ st.subheader("N8N Comming")
 #greenyellow,lime,orangered,yellowgreen,deeppink,    darkmagenta,blueviolet,red, blue
 links = [
     ### N8N
-   {"href": "",
-    "text": "",
+   {"href": " N8N",
+    "text": " N8N",
     "fondo": "yellowgreen" }, # 
-    {"href": "",
-    "text": "",
+    {"href": " N8N",
+    "text": " N8N",
     "fondo": "darkmagenta" }, # 
-    {"href": "",
-    "text": "",
+    {"href": " N8N",
+    "text": " N8N",
     "fondo": "blue" }, # 
-    {"href": "",
-    "text": "",
+    {"href": " N8N",
+    "text": " N8N",
     "fondo": "red" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "yellowgreen" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "darkmagenta" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "blue" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "red" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "yellowgreen" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "darkmagenta" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "blue" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "red" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "yellowgreen" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "darkmagenta" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "blue" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "red" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "yellowgreen" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "darkmagenta" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "blue" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "red" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "yellowgreen" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "darkmagenta" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "blue" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "red" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "yellowgreen" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "darkmagenta" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "blue" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "red" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "yellowgreen" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "darkmagenta" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "blue" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "red" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "yellowgreen" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "darkmagenta" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "blue" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "red" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "yellowgreen" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "darkmagenta" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "blue" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "red" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "yellowgreen" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "darkmagenta" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "blue" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "red" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "yellowgreen" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "darkmagenta" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "blue" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "red" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "yellowgreen" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "darkmagenta" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "blue" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "red" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "yellowgreen" }, # 
 ]
 for link in links:
     st.markdown(f"""<a href="{link['href']}" target="_blank">
@@ -609,165 +461,20 @@ st.subheader("MCP Comming")
 #greenyellow,lime,orangered,yellowgreen,deeppink,    darkmagenta,blueviolet,red, blue
 links = [
     ### MCP
-   {"href": "",
-    "text": "",
+   {"href": "MCP",
+    "text": "MCP",
     "fondo": "yellowgreen" }, # 
-    {"href": "",
-    "text": "",
+    {"href": "MCP",
+    "text": "MCP",
     "fondo": "darkmagenta" }, # 
-    {"href": "",
-    "text": "",
+    {"href": "MCP",
+    "text": "MCP",
     "fondo": "blue" }, # 
-    {"href": "",
-    "text": "",
+    {"href": "MCP",
+    "text": "MCP",
     "fondo": "red" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "yellowgreen" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "darkmagenta" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "blue" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "red" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "yellowgreen" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "darkmagenta" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "blue" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "red" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "yellowgreen" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "darkmagenta" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "blue" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "red" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "yellowgreen" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "darkmagenta" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "blue" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "red" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "yellowgreen" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "darkmagenta" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "blue" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "red" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "yellowgreen" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "darkmagenta" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "blue" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "red" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "yellowgreen" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "darkmagenta" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "blue" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "red" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "yellowgreen" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "darkmagenta" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "blue" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "red" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "yellowgreen" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "darkmagenta" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "blue" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "red" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "yellowgreen" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "darkmagenta" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "blue" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "red" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "yellowgreen" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "darkmagenta" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "blue" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "red" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "yellowgreen" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "darkmagenta" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "blue" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "red" }, # 
-    {"href": "",
-    "text": "",
-    "fondo": "yellowgreen" }, # 
+    {"href": "MCP",
+    "text": "MCP",
 ]
 for link in links:
     st.markdown(f"""<a href="{link['href']}" target="_blank">
