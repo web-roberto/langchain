@@ -9,7 +9,6 @@ st.balloons()
 st.snow()
 st.toast("Loading...")
 
-
 st.subheader("Machine Learning")
 #greenyellow,lime,orangered,yellowgreen,deeppink,    darkmagenta,blueviolet,red, blue
 links = [
@@ -94,63 +93,78 @@ links = [
    {"href": "https://github.com/web-roberto/generative_ai/tree/main/seccion4-Prompts",
     "text": "Generative AI and LLM -> Prompt Engineering documentation",
     "fondo": "yellowgreen" }, # seccion4-Prompts
-    {"href": "",
+    {"href": "https://github.com/web-roberto/generative_artificial_intelligence/blob/main/seccion5-Deepseek-Claude-Gemini/Prompts_tarea_DeepSeek.txt",
     "text": "Generative AI and Large Language Model (LLM) Apps-> Practice with DeepSeek",
-    "fondo": "darkmagenta" }, # 
-    {"href": "",
+    "fondo": "darkmagenta" }, # seccion5- 38
+    {"href": "https://github.com/web-roberto/generative_artificial_intelligence/blob/main/seccion5-Deepseek-Claude-Gemini/Prompts_tarea_Claude.txt",
     "text": "Generative AI and LLM) Apps-> Practice with Claude",
-    "fondo": "blue" }, # 
-    {"href": "",
+    "fondo": "blue" }, #  seccion5-  43
+    {"href": "https://github.com/web-roberto/generative_artificial_intelligence/blob/main/seccion5-Deepseek-Claude-Gemini/Prompts_tarea_Gemini.txt",
     "text": "Generative AI and LLM Apps-> Practice with Gemini",
-    "fondo": "red" }, # 
-    {"href": "",
-    "text": "Generative AI and LLM Apps-> email management and automated response",
-    "fondo": "yellowgreen" }, # 75
-    {"href": "",
-    "text": "Generative AI and LLM Apps-> Chatbot",
-    "fondo": "darkmagenta" }, # 80
-    {"href": "",
+    "fondo": "red" }, # seccion5- 51
+    {"href": "https://github.com/web-roberto/generative_artificial_intelligence/tree/main/seccion6-prompts-avanzados/Advanced-Data-Analisys",
+    "text": "Prompts -> Advanced Data Analisys",
+    "fondo": "yellowgreen" }, # seccion6- 57
+    {"href": "https://github.com/web-roberto/generative_artificial_intelligence/blob/main/seccion6-prompts-avanzados/Prompts_busqueda_Internet_chatGPT4.txt",
+    "text": "Prompts search in intermet",
+    "fondo": "red" }, # seccion6- 62
+    {"href": "https://github.com/web-roberto/generative_artificial_intelligence/blob/main/seccion6-prompts-avanzados/Prompts_gpts_external_services.txt",
+    "text": "Prompts external services",
+    "fondo": "red" }, # seccion6- 63
+    {"href": "https://github.com/web-roberto/generative_artificial_intelligence/blob/main/generative_ai_seccion8/94.Detecci%C3%B3n_correos_maliciosos_GPT_Parte2.ipynb",
     "text": "Generative AI and LLM Apps-> malicious email detection with ChatGPT and GPT",
-    "fondo": "blue" }, # 92
-    {"href": "",
+    "fondo": "yellowgreen" }, # seccion8- 93
+    {"href": "https://github.com/web-roberto/generative_artificial_intelligence/blob/main/generative_ai_seccion8/102.Hiperparametros_LLMs_GPT.ipynb",
+    "text": "Generative AI and LLM Apps-> Hyperparameters LLM",
+    "fondo": "blue" }, # seccion8- 94
+    {"href": "https://github.com/web-roberto/generative_artificial_intelligence/tree/main/generative_ai_seccion8/96.gpt_con_mundo_exterior_analisis_url",
     "text": "Generative AI and LLM Apps-> Connecting my GPTs to the real world: intelligent URL analysis",
-    "fondo": "red" }, # 95
-    {"href": "",
+    "fondo": "red" }, # seccion8-96
+    {"href": "https://github.com/web-roberto/generative_artificial_intelligence/blob/main/generative_ai_seccion8/97.Implementacion_ChatBot_GPT.ipynb",
     "text": "Generative AI and LLM Apps-> Implementing a Chatbot with ChatGPT and GPT",
-    "fondo": "yellowgreen" }, # 97
-    {"href": "",
+    "fondo": "yellowgreen" }, # seccion8-97
+    {"href": "https://github.com/web-roberto/generative_artificial_intelligence/blob/main/generative_ai_seccion8/101.Funciones_GPT_ChatGPT_Integraci%C3%B3n_servicios_externos.ipynb",
     "text": "Generative AI and LLM Apps-> Integration of Chatbot with external services",
-    "fondo": "darkmagenta" }, # 99
-    {"href": "",
-    "text": "Generative AI, LLM and Recurrent Neural Networks. Apps-> Integration of Chatbot with external service",
-    "fondo": "blue" }, # 99
-    {"href": "",
+    "fondo": "darkmagenta" }, # seccion8-99
+    {"href": "https://github.com/web-roberto/generative_artificial_intelligence/tree/main/generative_ai_seccion9/106.GeneracionTextoLSTM",
     "text": "Generative AI, LLM and Recurrent Neural Networks. Apps-> Text generation with LSTM",
-    "fondo": "red" }, # 106
-    {"href": "",
+    "fondo": "red" }, # seccion9-106
+    {"href": "https://github.com/web-roberto/generative_artificial_intelligence/tree/main/generative_ai_seccion9/121.GeneracionTextoConTransformers",
     "text": "Generative AI, LLM and Transformers. Apps-> Text Generation with Transformers",
-    "fondo": "yellowgreen" }, # 121
-    {"href": "",
-    "text": "Generative AI, LLM, Pre-training and Fine-Tunning. Apps-> Fine-tuned LLM (FLAN-T5 by Google)",
-    "fondo": "darkmagenta" }, # 129
-    {"href": "",
-    "text": "Generative AI, LLM, Pre-training and Fine-Tunning. Apps-> Fine-tuned of an LLM",
-    "fondo": "blue" }, # 134
-    {"href": "",
-    "text": "Generative AI, LLM, Pre-training and Fine-Tunning. Apps-> Fine-tuning of GPT and ChatGPT to call external functions",
-    "fondo": "red" }, # 141
-    {"href": "",
+    "fondo": "yellowgreen" }, # seccion9-121
+    {"href": "https://github.com/web-roberto/generative_artificial_intelligence/blob/main/generative_ai_seccion10/instruction_fine_tuning_llm_base.py",
+    "text": "Generative AI, LLM,  Pre-training and Fine-Tunning. Apps-> ->  Instruction Fine-tuning sobre un LLM Base",
+    "fondo": "darkmagenta" }, # seccion10-129,130
+    {"href": "https://github.com/web-roberto/generative_artificial_intelligence/blob/main/generative_ai_seccion10/130.Base_LLM_vs_Fine_Tuned_LLM.ipynb",
+    "text": "Generative AI, LLM, Pre-training and Fine-Tunning. Apps-> Base LLM vs Fine-tuned LLM",
+    "fondo": "blue" }, # seccion10-134
+    {"href": "https://github.com/web-roberto/generative_artificial_intelligence/blob/main/generative_ai_seccion10/139.Fine_Tuning_GPT_4_ChatGPT.ipynb",
+    "text": "Fine-tuning de GPT 4 y ChatGPT",
+    "fondo": "yellowgreen" }, # seccion10-137
+    {"href": "https://github.com/web-roberto/generative_artificial_intelligence/blob/main/generative_ai_seccion10/141.Funciones_y_Fine_Tuning_GPT_4_ChatGPT.ipynb",
+    "text": "Fine-tuning for GPT 4 and ChatGP to call external functions",
+    "fondo": "blue" }, # seccion10-139
+    {"href": "https://github.com/web-roberto/generative_artificial_intelligence/blob/main/generative_ai_seccion10/148.convert_llama_weights_to_hf.py",
+    "text": "Convert Llama weights to hf",
+    "fondo": "red" }, # seccion10-141
+    {"href": "https://github.com/web-roberto/generative_artificial_intelligence/blob/main/generative_ai_seccion10/146.PEFT_QLoRA_LLAMA_2.ipynb",
     "text": "Generative AI, LLM, Pre-training and Fine-Tunning, PEFT (Parameter Efficient Fine-tunning), LoRA (Low-Rank Adaption. Apps-> PEFT of LLAMA2 (Meta) with QLoRA",
-    "fondo": "yellowgreen" }, # 146, 147
-    {"href": "",
+    "fondo": "yellowgreen" }, # seccion10-146, 147
+    {"href": "https://github.com/web-roberto/generative_artificial_intelligence/blob/main/generative_ai_seccion11/156.Reinforcement_Learning_Human_Feedback_PPO_LLAMA.ipynb",
     "text": "Generative AI, Fine-Tunning, RLHF (Reinforcement Learning from Human Feeback) and PPO (Proximal Policy Optimization). Apps-> RLHF of LLAMA2 (TinyLlama)",
-    "fondo": "darkmagenta" }, # 155-157
-    {"href": "",
+    "fondo": "darkmagenta" }, # seccion11-155-157
+    {"href": "https://github.com/web-roberto/generative_artificial_intelligence/blob/main/generative_ai_seccion12/163.Generative_adversarial_Networks_modificacion_videos.ipynb",
     "text": "Generative AI, LLM, GANs (Generative Adversarial Networks). Apps-> To change a person's face in a video",
-    "fondo": "blue" }, # 163
-    {"href": "",
+    "fondo": "blue" }, # seccion12-163
+    {"href": "https://github.com/web-roberto/generative_artificial_intelligence/blob/main/generative_ai_seccion12/171.introduccion_stable_diffusion.py",
+    "text": " Introduction to Stable Diffusion",
+    "fondo": "red" }, # seccion12-169
+    {"href": "https://github.com/web-roberto/generative_artificial_intelligence/tree/main/generative_ai_seccion12/169",
     "text": "Generative AI, LLM, Diffusion Models, CLIP (Contrastive Language-Image Pre-training). Apps-> Automatic Generations fo Images. DALL-E 3",
-    "fondo": "red" }, # 169
+    "fondo": "darkmagenta" }, # seccion12-170
+    {"href": "https://github.com/web-roberto/generative_artificial_intelligence/blob/main/generative_ai_seccion13/179.fast_stable_diffusion_AUTOMATIC1111.ipynb",
+    "text": "Fast Stable Diffusion AUTOMATIC1111",
+    "fondo": "yellowgreen" }, # seccion13-179
 ]
 for link in links:
     st.markdown(f"""<a href="{link['href']}" target="_blank">
@@ -162,86 +176,95 @@ st.subheader("Deep Learning")
 #greenyellow,lime,orangered,yellowgreen,deeppink,    darkmagenta,blueviolet,red, blue
 links = [
     ### DEEP LEARNING
-   {"href": "",
-    "text": "Deep Learning: M-P NEURON App -> Implementation",
+    {"href": "https://github.com/web-roberto/deep_learning_roberto/blob/main/DeepLearning/18.Intuiciones%20sobre%20End-to-End%20Learning.ipynb",
+    "text": "Deep Learning: End-to-End intuitions",
     "fondo": "yellowgreen" }, # 
-    {"href": "",
+    {"href": "https://github.com/web-roberto/deep_learning_roberto/blob/main/DeepLearning/28.Implementando%20la%20Neurona%20M-P.ipynb ",
+    "text": "Deep Learning: M-P NEURON App -> Implementation",
+    "fondo": "yellowgreen" }, # 28
+    {"href": "https://github.com/web-roberto/deep_learning_roberto/blob/main/DeepLearning/29.Diagn%C3%B3stico%20de%20c%C3%A1ncer%20de%20mama%20con%20el%20Perceptr%C3%B3n.ipynb",
     "text": "Deep Learning: M-P NEURON App -> Diagnosis of breast cancer with one M-P neuron",
-    "fondo": "darkmagenta" }, # 
-    {"href": "",
+    "fondo": "darkmagenta" }, # 29
+    {"href": "https://github.com/web-roberto/deep_learning_roberto/blob/main/DeepLearning/36.Visualizaci%C3%B3n%20del%20l%C3%ADmite%20de%20decisi%C3%B3n%20del%20Perceptr%C3%B3n.ipynb",
     "text": "Deep Learning: PRECEPTRON App -> Visualization of the perceptron decision boundary",
     "fondo": "blue" }, # 
-    {"href": "",
+    {"href": "https://github.com/web-roberto/deep_learning_roberto/blob/main/DeepLearning/39.Clasificaci%C3%B3n%2Bde%2Bim%C3%A1genes%2Bcon%2Bel%2BPerceptr%C3%B3n.ipynb",
     "text": "Deep Learning: PRECEPTRON App -> Classification of Images",
     "fondo": "red" }, # 
-    {"href": "",
+    {"href": "https://github.com/web-roberto/deep_learning_roberto/blob/main/DeepLearning/46.Visualizando%20el%20l%C3%ADmite%20de%20decisi%C3%B3n%20del%20Perceptr%C3%B3n%20Multicapa.ipynb",
     "text": "Deep Learning: PRECEPTRON MULTILAYER App -> Decision boundary of the multilayer perceptron",
-    "fondo": "yellowgreen" }, # 
-    {"href": "",
+    "fondo": "yellowgreen" }, # 46
+    {"href": "https://github.com/web-roberto/deep_learning_roberto/blob/main/DeepLearning/57.Clasificaci%C3%B3n%20de%20im%C3%A1genes%20con%20el%20Perceptr%C3%B3n%20Multicapa.ipynb",
     "text": "Deep Learning: loss and optimization functions. App -> Classification of images of handwritten digits",
     "fondo": "darkmagenta" }, # 
-    {"href": "",
-    "text": "Deep Learning: DEEP ARTIFICIAL NEURONAL NETWORK App -> Audio Classification",
+    {"href": "https://github.com/web-roberto/deep_learning_roberto/tree/main/DeepLearning/66.Clasificaci%C3%B3n%2Bde%2Baudio%2Bcon%2Bel%2BPerceptr%C3%B3n%2BMulticapa%2BI.ipynb",
+    "text": "Deep Learning: Audio Classification",
     "fondo": "blue" }, # 
-    {"href": "",
+    {"href": "https://github.com/web-roberto/deep_learning_roberto/tree/main/DeepLearning/67.Clasificaci%C3%B3n%2Bde%2Baudio%2Bcon%2Bel%2BPerceptr%C3%B3n%2BMulticapa%2BII.ipynb",
+    "text": "Deep Learning: Audio Classification with the Multilayer Perceptron",
+    "fondo": "red" }, # 67
+    {"href": "https://github.com/web-roberto/deep_learning_roberto/blob/main/DeepLearning/81.Implementando%20una%20RNA%20con%20Keras.ipynb",
     "text": "Deep Learning: KERAS App -> Implementation of Artificial Neuronal Network",
-    "fondo": "red" }, # 
-    {"href": "",
-    "text": "Deep Learning: KERAS App -> Training of a Artificial Neuronal Network",
     "fondo": "yellowgreen" }, # 
-    {"href": "",
+    {"href": "https://github.com/web-roberto/deep_learning_roberto/blob/main/DeepLearning/83.Limite%20de%20decisi%C3%B3n%20de%20una%20RNA%20profunda.ipynb",
     "text": "Deep Learning: KERAS App -> Decision limit of a deep artificial neural network",
     "fondo": "darkmagenta" }, # 
-    {"href": "",
+    {"href": "https://github.com/web-roberto/deep_learning_roberto/blob/main/DeepLearning/84.Clasificaci%C3%B3n%20de%20audio%20con%20Keras.ipynb",
     "text": "Deep Learning: KERAS App -> Audio Classification with Keras",
     "fondo": "blue" }, # 
-    {"href": "",
+    {"href": "https://github.com/web-roberto/deep_learning_roberto/blob/main/DeepLearning/85.Regresi%C3%B3n%20con%20Keras.ipynb",
     "text": "Deep Learning: KERAS App -> Regression with Keras",
     "fondo": "red" }, # 
-    {"href": "",
+    {"href": "https://github.com/web-roberto/deep_learning_roberto/tree/main/DeepLearning/91.Visualizaci%C3%B3n%2Bde%2Blas%2Bfunciones%2Bde%2Bactivaci%C3%B3n.ipynb",
     "text": "Deep Learning: Activation Functions App -> Show activation functions",
     "fondo": "yellowgreen" }, # 
-    {"href": "",
-    "text": "Deep Learning: Activation Functions App -> No use of activation functions",
+    {"href": "https://github.com/web-roberto/deep_learning_roberto/tree/main/DeepLearning/93.%C2%BFPor%2Bqu%C3%A9%2Butilizar%2Buna%2Bfunci%C3%B3n%2Bde%2Bactivaci%C3%B3n_.ipynb",
+    "text": "Deep Learning: Activation Functions App -> Why to use of activation functions",
     "fondo": "darkmagenta" }, # 
-    {"href": "",
+    {"href": "https://github.com/web-roberto/deep_learning_roberto/blob/main/DeepLearning/95.Clasificaci%C3%B3n%20de%20sentimientos.ipynb",
     "text": "Deep Learning: Activation Functions App -> Feelings classification",
     "fondo": "blue" }, # 
-    {"href": "",
+    {"href": "https://github.com/web-roberto/deep_learning_roberto/blob/main/DeepLearning/95.Clasificaci%C3%B3n%20de%20sentimientos.ipynb",
+    "text": "Deep Learning -> Feelings Classification ",
+    "fondo": "yellowgreen" }, # 
+    {"href": "https://github.com/web-roberto/deep_learning_roberto/blob/main/DeepLearning/99.Clasificaci%C3%B3n%20de%20texto%20con%20Mini-Batch%20Gradient%20Descent.ipynb",
     "text": "Deep Learning: Optimization Functions App -> Mini-Batch Gradient Descent",
     "fondo": "red" }, # 
-    {"href": "",
-    "text": "Deep Learning: Optimization Functions App -> Stochastic Gradient Descent",
+    {"href": "https://github.com/web-roberto/deep_learning_roberto/blob/main/DeepLearning/101.Clasificaci%C3%B3n%20de%20texto%20con%20Stochastic%20Gradient%20Descent.ipynb",
+    "text": "Deep Learning -> Stochastic Gradient Descent",
     "fondo": "yellowgreen" }, # 
-    {"href": "",
+    {"href": "https://github.com/web-roberto/deep_learning_roberto/tree/main/DeepLearning/104.Exponentially%2Bweighted%2Bmoving%2Baverage.ipynb",
     "text": "Deep Learning: Optimization Functions App -> Exponentially Weighted Moving Average",
     "fondo": "darkmagenta" }, # 
-    {"href": "",
+    {"href": "https://github.com/web-roberto/deep_learning_roberto/blob/main/DeepLearning/106.Clasificaci%C3%B3n%20de%20texto%20con%20Momentum%20Gradient%20Descent.ipynb",
     "text": "Deep Learning: Optimization Functions App -> Momentum Gradient Descent",
     "fondo": "blue" }, # 
-    {"href": "",
+    {"href": "https://github.com/web-roberto/deep_learning_roberto/blob/main/DeepLearning/108.Clasificaci%C3%B3n%20de%20texto%20con%20RMSprop.ipynb",
     "text": "Deep Learning: Optimization Functions App -> RMSprop",
     "fondo": "red" }, # 
-    {"href": "",
+    {"href": "https://github.com/web-roberto/deep_learning_roberto/blob/main/DeepLearning/110.Clasificaci%C3%B3n%20de%20texto%20con%20Adam.ipynb",
     "text": "Deep Learning: Optimization Functions App -> Adam Optimization",
     "fondo": "yellowgreen" }, # 
-    {"href": "",
+    {"href": "https://github.com/web-roberto/deep_learning_roberto/blob/main/DeepLearning/113.Selecci%C3%B3n%20de%20hiperpar%C3%A1metros%20con%20Keras%20Tuner.ipynb",
+    "text": "Deep Learning: Hyperparams App -> Selection of Hyperparams with Teras Turner",
+    "fondo": "darkmagenta" }, # 
+    {"href": "https://github.com/web-roberto/deep_learning_roberto/blob/main/DeepLearning/117.Selecci%C3%B3n%20de%20hiperpar%C3%A1metros%20y%20clasificaci%C3%B3n%20de%20texto.ipynb",
     "text": "Deep Learning: Hyperparams App -> Selection of Hyperparams and text classification",
     "fondo": "darkmagenta" }, # 
-    {"href": "",
-    "text": "Deep Learning:Optimization Functions App -> Mini-Batch Gradient Descent",
-    "fondo": "blue" }, # 
-    {"href": "",
+    {"href": "https://github.com/web-roberto/deep_learning_roberto/blob/main/DeepLearning/120.Tensores%20y%20operaciones%20con%20tensores.ipynb",
     "text": "Deep Learning: TENSORFLOW App -> Tensor and operations",
     "fondo": "red" }, # 
-    {"href": "",
+    {"href": "https://github.com/web-roberto/deep_learning_roberto/blob/main/DeepLearning/121.Creaci%C3%B3n%20de%20una%20funci%C3%B3n%20de%20error%20personalizada.ipynb",
     "text": "Deep Learning: TENSORFLOW App -> Create a custom loss function",
     "fondo": "yellowgreen" }, # 
-    {"href": "",
+    {"href": "https://github.com/web-roberto/deep_learning_roberto/blob/main/DeepLearning/122.Creaci%C3%B3n%20de%20otros%20componentes%20personalizados%20con%20Tensorflow.ipynb",
     "text": "Deep Learning: TENSORFLOW App -> Create a custom component",
     "fondo": "darkmagenta" }, # 
-    {"href": "",
+    {"href": "https://github.com/web-roberto/deep_learning_roberto/blob/main/DeepLearning/123.Creaci%C3%B3n%20de%20capas%20personalizadas%20con%20Tensorflow.ipynb",
     "text": "Deep Learning: TENSORFLOW App -> Create a custom layer",
+    "fondo": "blue" }, # 
+     {"href": "https://github.com/web-roberto/deep_learning_roberto/tree/main/DeepLearning/132.Clasificaci%C3%B3n%2Bde%2BTweets%2Bde%2Bdesastres%2Bnaturales.ipynb",
+    "text": "Deep Learning: TENSORFLOW App -> Classification of Tweets about natural disasters",
     "fondo": "blue" }, # 
 ]
 for link in links:
@@ -254,9 +277,6 @@ st.subheader("AI with LangChain")
 #greenyellow,lime,orangered,yellowgreen,deeppink,    darkmagenta,blueviolet,red, blue
 links = [
     ### LANGCHAIN
-    {"href": "",
-    "text": "### LANGCHAIN ######",
-    "fondo": "yellowgreen" }, # 
     {"href": "https://github.com/web-roberto/langchain/tree/main/seccion4",
     "text": "LangChain App -> Feelings Analysis",
     "fondo": "darkmagenta" }, # -28-39 seccion4
@@ -298,6 +318,37 @@ for link in links:
             {link['text']}
         </button></a>""",unsafe_allow_html=True)
 
+st.subheader("MCP Comming")
+#greenyellow,lime,orangered,yellowgreen,deeppink,    darkmagenta,blueviolet,red, blue
+links = [
+    ### MCP
+   {"href": "https://github.com/web-roberto/MCP_Model_Control_Protocol/blob/main/3.introduction_claude_desktop_config.json",
+    "text": "Introduction to Claude desktop",
+    "fondo": "yellowgreen" }, # 
+    {"href": "https://github.com/web-roberto/MCP_Model_Control_Protocol/tree/main/seccion4_promps_en_MCP",
+    "text": "Promps in MCP",
+    "fondo": "darkmagenta" }, # 
+    {"href": "https://github.com/web-roberto/MCP_Model_Control_Protocol/tree/main/13.mpc_server",
+    "text": "MCP Server",
+    "fondo": "blue" }, # 
+    {"href": "https://github.com/web-roberto/MCP_Model_Control_Protocol/tree/main/24.gmail_mcp_server_resource_template",
+    "text": "gmail MCP Server Resource Template",
+    "fondo": "red" }, # 
+    {"href": "https://github.com/web-roberto/MCP_Model_Control_Protocol/tree/main/42.using%20local%20LLMs%20with%20an%20MCP%20client",
+    "text": "Using local LLMs with an MCP client",
+    "fondo": "yellowgreen" }, # 
+    {"href": "MChttps://github.com/web-roberto/MCP_Model_Control_Protocol/tree/main/seccion5_Clientes_personalizadosP",
+    "text": "Customized Clients",
+    "fondo": "darkmagenta" }, # 
+    {"href": "Mhttps://github.com/web-roberto/MCP_Model_Control_Protocol/tree/main/seccion7_Seguridad_MCPCP",
+    "text": "Security in MCP",
+    "fondo": "blue" }, # 
+]
+for link in links:
+    st.markdown(f"""<a href="{link['href']}" target="_blank">
+        <button style="background-color:{link['fondo']};color:white;padding:0.5em 1em;margin:0.5em;width:100%;border:none;text-align:start;border-radius:8px;cursor:pointer;">
+            {link['text']}
+        </button></a>""",unsafe_allow_html=True) 
 
 st.subheader("N8N Comming")
 #greenyellow,lime,orangered,yellowgreen,deeppink,    darkmagenta,blueviolet,red, blue
@@ -322,29 +373,6 @@ for link in links:
             {link['text']}
         </button></a>""",unsafe_allow_html=True) 
 
-
-st.subheader("MCP Comming")
-#greenyellow,lime,orangered,yellowgreen,deeppink,    darkmagenta,blueviolet,red, blue
-links = [
-    ### MCP
-   {"href": "MCP",
-    "text": "MCP",
-    "fondo": "yellowgreen" }, # 
-    {"href": "MCP",
-    "text": "MCP",
-    "fondo": "darkmagenta" }, # 
-    {"href": "MCP",
-    "text": "MCP",
-    "fondo": "blue" }, # 
-    {"href": "MCP",
-    "text": "MCP",
-    "fondo": "red" }, # 
-]
-for link in links:
-    st.markdown(f"""<a href="{link['href']}" target="_blank">
-        <button style="background-color:{link['fondo']};color:white;padding:0.5em 1em;margin:0.5em;width:100%;border:none;text-align:start;border-radius:8px;cursor:pointer;">
-            {link['text']}
-        </button></a>""",unsafe_allow_html=True) 
 
 
 
