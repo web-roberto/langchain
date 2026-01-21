@@ -318,7 +318,7 @@ for link in links:
             {link['text']}
         </button></a>""",unsafe_allow_html=True)
 
-st.subheader("MCP Comming")
+st.subheader("MCP")
 #greenyellow,lime,orangered,yellowgreen,deeppink,    darkmagenta,blueviolet,red, blue
 links = [
     ### MCP
